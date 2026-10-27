@@ -30,6 +30,16 @@ FEED_URL = "https://spottedbysattya.substack.com/feed"
 REQUEST_TIMEOUT = 10
 MAX_POSTS = 6  # a handful of recent weekly digests is plenty
 
+# Substack's CDN 403s requests with no User-Agent (the default
+# "python-requests/x.y"), which is what GitHub Actions runners send -
+# a real browser UA gets through from both local machines and CI.
+REQUEST_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+    )
+}
+
 CONTENT_ENCODED_TAG = "{http://purl.org/rss/1.0/modules/content/}encoded"
 
 # "friday - september 25" (no year given)
@@ -45,7 +55,7 @@ class SpottedBySattyaAdapter(EventSourceAdapter):
     name = "Spotted by Sattya"
 
     def fetch_events(self) -> list[Event]:
-        response = requests.get(FEED_URL, timeout=REQUEST_TIMEOUT)
+        response = requests.get(FEED_URL, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
         response.raise_for_status()
         return self._parse_feed(response.content)
 
