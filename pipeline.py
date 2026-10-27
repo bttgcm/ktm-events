@@ -6,17 +6,25 @@ from __future__ import annotations
 
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import yaml
 
+from ics import build_calendar
 from scrapers.base import Event
 from scrapers.registry import ADAPTERS
 
 ROOT = Path(__file__).parent
 SOURCES_CONFIG = ROOT / "sources.yaml"
 OUTPUT_PATH = ROOT / "docs" / "events.json"
+ICS_OUTPUT_PATH = ROOT / "docs" / "events.ics"
+
+# Some sources (e.g. Taragaon Next's "what's on" page) dump their entire
+# multi-year history in the same markup as current events. Without a
+# cutoff, that history would pile up in the feed and the calendar
+# subscription forever - drop anything that ended more than this long ago.
+MAX_PAST_AGE = timedelta(days=30)
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -56,6 +64,13 @@ def sort_by_start(events: list[Event]) -> list[Event]:
     return sorted(events, key=lambda e: e.start)
 
 
+def drop_stale_events(events: list[Event]) -> list[Event]:
+    # Compare as real datetimes (not ISO strings) so events using a
+    # different UTC offset than the cutoff still compare correctly.
+    cutoff = datetime.now(timezone.utc) - MAX_PAST_AGE
+    return [e for e in events if datetime.fromisoformat(e.end or e.start) >= cutoff]
+
+
 def write_output(events: list[Event]) -> None:
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -67,11 +82,15 @@ def write_output(events: list[Event]) -> None:
     )
     logger.info("Wrote %d event(s) to %s", len(events), OUTPUT_PATH)
 
+    ICS_OUTPUT_PATH.write_bytes(build_calendar(events).encode("utf-8"))
+    logger.info("Wrote calendar feed to %s", ICS_OUTPUT_PATH)
+
 
 def main() -> None:
     source_names = load_enabled_sources()
     events = collect_events(source_names)
     events = dedupe(events)
+    events = drop_stale_events(events)
     events = sort_by_start(events)
     write_output(events)
 

@@ -1,12 +1,430 @@
 {
-  "generated_at": "2026-09-28T02:02:32.546146+00:00",
+  "generated_at": "2026-10-27T06:14:10.196639+00:00",
   "events": [
     {
-      "title": "भोटेकोशी/त्रिशूली विपद्पछि जलविद्युत् : आधारभूत विषयमा पुनर्विचार",
+      "title": "Deities of Nepal III",
+      "start": "2026-09-17T00:00:00+05:45",
+      "source_name": "Nepal Art Council",
+      "source_url": "https://nepalartcouncil.org.np/deities-of-nepal-iii/",
+      "description": "Deities of Nepal III: Lore and Legends centres on legends, myths, and folk tales that keep our deities rooted in their cultural and communal contexts, rather than reducing them to mere décor. Date: 17th September – 10th October, 2026 Time: 10:30 A.M – 5:30 P.M, Sunday to Saturday",
+      "end": "2026-10-10T00:00:00+05:45",
+      "location": null,
+      "categories": [],
+      "image": null,
+      "id": "2087b16d52aa5c89e51a5d93affeeeadcc22a733"
+    },
+    {
+      "title": "Shree Bijjo Bhoot- Katha Sudurko",
+      "start": "2026-09-22T00:00:00+05:45",
+      "source_name": "Mandala Theatre",
+      "source_url": "https://www.mandalatheatre.com/events/shree-bijjo-bhoot-katha-sudurko/",
+      "description": null,
+      "end": "2026-10-11T00:00:00+05:45",
+      "location": null,
+      "categories": [
+        "Theatre"
+      ],
+      "image": null,
+      "id": "c84e16ef5070ad10a6748c1f0aeb4ce2dce4312b"
+    },
+    {
+      "title": "jigsaw sunday",
+      "start": "2026-09-27T12:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/DdY24JxA_P_/#2026-09-27-0",
+      "description": "spend a relaxed afternoon solving jigsaw puzzles together while helping raise funds for families affected by recent floods. Kathmandu Guest House, Thamel, registration required, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Social"
+      ],
+      "image": null,
+      "id": "30a9ce45d228659e9910cddb9cab0cc75b666046"
+    },
+    {
+      "title": "nada yoga: dhrupad sandhya",
+      "start": "2026-09-27T17:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/DdWi2z_TpJ_/#2026-09-27-1",
+      "description": "an evening of dhrupad classical music with vocal performances by inoue sou and vishal bhattarai, accompanied by rakesh shakya and yaman sinjali on pakhawaj. Taragaon Next, Boudha, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Music"
+      ],
+      "image": null,
+      "id": "785887f27458a7505db44dbb542f0bbc6aafbdd0"
+    },
+    {
+      "title": "women’s night run",
+      "start": "2026-09-27T17:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/DdfuaPSpMPQ/#2026-09-27-2",
+      "description": "a women’s evening run of around 5 km, followed by drinks and a casual hangout with the running community. Maya Coffee Nepal, Kupondole, registration required, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "50f204554a930bc6e31cfcf42980081184942448"
+    },
+    {
+      "title": "dialogue of strings & rhythm",
+      "start": "2026-09-28T20:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/Dc0MxfVpIPX/?hl=en#2026-09-28-0",
+      "description": "an indian classical performance by amitesh basu and sudip chatterjee, bringing mohan veena and tabla together in a duet. Jazz Upstairs, Lazimpat, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Music"
+      ],
+      "image": null,
+      "id": "328b590c30d7844ef8b4edfd52f8b1da0c2362f6"
+    },
+    {
+      "title": "cosmic wonder: conversations on astrology, healing and meditation",
       "start": "2026-09-29T15:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/Ddf-VTRiH8T/#2026-09-29-0",
+      "description": "an artist session with jimmy thapa exploring astrology, healing, meditation, and spiritual practice through conversation. Nepal Art Council, Babarmahal, registration required, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "d45c501068687b97b1d11637cb93a9cfdb54f9a7"
+    },
+    {
+      "title": "everest, the mother goddess",
+      "start": "2026-09-29T17:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/september-25-october-1#2026-09-29-1",
+      "description": "a documentary following orianne aymard’s journey toward climbing everest after a cerebral hemorrhage changed the course of her life, followed by a q&a with aymard. Alliance Française, Pulchowk, free entry",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Film"
+      ],
+      "image": null,
+      "id": "9f94d20f321ea32aa6dccf67278e07bcfb9e686f"
+    },
+    {
+      "title": "new insights into mustang’s past",
+      "start": "2026-09-30T14:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSfZTjMcfuLdZMrGa0Q9KqcVSJ__CQvxIaRFEvcJn5444UoTFg/viewform#2026-09-30-0",
+      "description": "researchers from the french-nepalese archaeological mission in mustang share recent findings from their work, followed by an open q&a. Alliance Française, Pulchowk, registration required, site",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "c78724408a438ab9e6a3d5f7efd37f0e2bd9ac2d"
+    },
+    {
+      "title": "intentional dating",
+      "start": "2026-09-30T18:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/DdlpMb1TZC1/#2026-09-30-1",
+      "description": "a social dining event for ages 35+, with three courses and three one-on-one conversations over dinner. Mercure Kathmandu, Sukedhara Heights, registration required, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Social"
+      ],
+      "image": null,
+      "id": "f8e3fcaa91222b17e822d00c4dcc74f845c741a7"
+    },
+    {
+      "title": "brahman 2026: an exploration of form, nature & spirit",
+      "start": "2026-10-02T17:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-02-0",
+      "description": "a solo exhibition by pinky singh khanuja exploring the interconnectedness of form, nature, and spirit through her artistic practice.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "ec5520c8bbf074cfa89cd2d1073d9ae89c26bce5"
+    },
+    {
+      "title": "thimi heritage walk",
+      "start": "2026-10-03T07:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-03-0",
+      "description": "a guided walk through thimi exploring newar settlement patterns, traditional architecture, pottery, temples, monasteries, festivals, and changing local heritage.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Heritage"
+      ],
+      "image": null,
+      "id": "220bf62bc376961fa68f1400cf5049d60dd6d534"
+    },
+    {
+      "title": "pacelab",
+      "start": "2026-10-04T05:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-04-0",
+      "description": "an early morning 5k community run at a 6:45/km pace, bringing runners together for movement and a chance to meet new people.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "be5bb1ca41d26b5284d20e9c1d401f9c6b07f4da"
+    },
+    {
+      "title": "artist session: tenzin norbu",
+      "start": "2026-10-05T14:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-05-0",
+      "description": "artist tenzin norbu shares the story of milarepa and other tales from dolpo as part of the deities of nepal exhibition programme.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "0cebb00360109d4cd38edc81eb718a13e3885d81"
+    },
+    {
+      "title": "cosmic wonder",
+      "start": "2026-10-06T15:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-06-0",
+      "description": "an artist session with jimmy thapa exploring astrology, healing, meditation, and spiritual practice through conversation.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "5240fae9a5b14561c5ec7e7b74752634571bcd18"
+    },
+    {
+      "title": "cinematography and film sound in documentary filmmaking",
+      "start": "2026-10-08T14:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-08-0",
+      "description": "a two-day masterclass with stephan krause and tomas bastian covering documentary research and planning, cinematography, sound, editing, and production, with hands-on camera and sound practice.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Workshop"
+      ],
+      "image": null,
+      "id": "ff53f7bee55e5c983f2c5eac52769023eecdca8f"
+    },
+    {
+      "title": "kathmandu marathon shakeout run",
+      "start": "2026-10-09T06:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-9-october-15#2026-10-09-0",
+      "description": "a relaxed 4 km community run ahead of the marathon, open to all ages and abilities with no pace goals. warm-up at 6:15am, run starts at 6:30am.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "dfc86a0152bc9406b0d207967616147503f6ebd7"
+    },
+    {
+      "title": "bhaktapur photowalk",
+      "start": "2026-10-10T08:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-9-october-15#2026-10-10-0",
+      "description": "a guided photography walk exploring historic monuments and living heritage, inviting participants to capture and share stories of the city as part of wiki loves monuments 2026.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Heritage"
+      ],
+      "image": null,
+      "id": "faf85b647edf161bb9ae72d06d03be361b9a3722"
+    },
+    {
+      "title": "women on the verge of a nervous breakdown",
+      "start": "2026-10-11T15:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-9-october-15#2026-10-11-0",
+      "description": "a screening of pedro almodóvar’s 1988 dark comedy following a woman caught in a spiral of heartbreak, disappearing lovers, frantic phone calls, and increasingly chaotic encounters.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Film"
+      ],
+      "image": null,
+      "id": "10a4564f8577c5f46efa069ee36d0471d65c2cb6"
+    },
+    {
+      "title": "Taragaon Talks: Documenting Kathmandu – How Digital Communities Look at Heritage",
+      "start": "2026-10-11T16:00:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/taragaon-talks-documenting-kathmandu-how-digital-communities-look-at-heritage/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Events"
+      ],
+      "image": null,
+      "id": "963ff29e6c33298da2859bb041a431c27b86a93f"
+    },
+    {
+      "title": "The Ground Beneath The Lines by Resident Artist Amisha Maharjan",
+      "start": "2026-10-12T16:00:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/5436/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibitions"
+      ],
+      "image": null,
+      "id": "490d5be7028a4ab7c997cbcf199c3dd5b3e16c0c"
+    },
+    {
+      "title": "Writing Circle – A Space for Writing Enthusiasts to Find a Community",
+      "start": "2026-10-15T15:00:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/writing-circle-a-space-for-writing-enthusiasts-to-find-a-community/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Events"
+      ],
+      "image": null,
+      "id": "90b5b61fbd2c18774dde2b0928c73d226e9826e6"
+    },
+    {
+      "title": "Book Launch: TrulyCentral by Abish Man Shakya",
+      "start": "2026-10-15T15:30:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/book-launch-truly-central-by-abish-man-shakya/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Events"
+      ],
+      "image": null,
+      "id": "bca43837105d33b20181ab2d33a434358e822263"
+    },
+    {
+      "title": "trulycentral book release",
+      "start": "2026-10-15T15:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-9-october-15#2026-10-15-0",
+      "description": "abish man shakya launches his debut essay anthology, bringing together personal stories, reflections, and fiction, followed by a book chat with nirdishtha raj sapkota.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Literature"
+      ],
+      "image": null,
+      "id": "7a458db09f5f7f594b15aeac03e1e6bb78a97261"
+    },
+    {
+      "title": "bihani sathi ko sathi",
+      "start": "2026-10-16T13:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-16-october-22#2026-10-16-0",
+      "description": "a relaxed dashain potluck with shared food, warm drinks, and time to connect with others on a self-help journey. bring a dish to share, and a friend if you’d like.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "4f3ca4a1455cf0d67a7c2b2f66f259b72b8ec5ff"
+    },
+    {
+      "title": "kipu mohani nakha fest 2083",
+      "start": "2026-10-17T13:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-16-october-22#2026-10-17-0",
+      "description": "celebrate fulpati, the seventh day of dashain in kirtipur with traditional newa music, contemporary live performances, and a lively community gathering.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Festival"
+      ],
+      "image": null,
+      "id": "395af66fbe11ac3e5c711fc0979efe29302310a6"
+    },
+    {
+      "title": "shades of sound ft. orthodox",
+      "start": "2026-10-23T19:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-23-0",
+      "description": "ease into the weekend with a live mix of jazz, funk, and reggae, bringing groove-driven rhythms and good energy to your friday night.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Music"
+      ],
+      "image": null,
+      "id": "70033853fcc03858736a571c1c11c21728301dfe"
+    },
+    {
+      "title": "tahaja hills sketch meet",
+      "start": "2026-10-24T11:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-24-0",
+      "description": "spend the morning sketching outdoors alongside fellow artists, surrounded by the hills of bhaktapur.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "a0078b4d5718ba7739cedb6f6ca70f7e56db02fe"
+    },
+    {
+      "title": "kathmandu heritage run",
+      "start": "2026-10-25T06:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-25-0",
+      "description": "explore the city’s historic neighborhoods on a 10 km community run, open to both regular runners and beginners.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "d543385154a4c0a329786bedb003de7de470bd06"
+    },
+    {
+      "title": "Doodling at Taragaon",
+      "start": "2026-10-26T10:00:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/doodling-at-taragaon-4/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Recurring Events"
+      ],
+      "image": null,
+      "id": "3c789b22af893d15028d8e0e696660a219851115"
+    },
+    {
+      "title": "अङ्ग्रेजी महिनाको अन्तिम मङ्गलबार आयोजना गरिँदैआएको ऊर्जा नीति संवाद यसपटक (२७ अक्टोबरमा) आयोजना हुने छैन ।",
+      "start": "2026-10-27T15:00:00+05:45",
       "source_name": "Martin Chautari",
-      "source_url": "https://martinchautari.org.np/events/hydropower-after-the-Bhotekoshi-Trishuli-disaster-Rethinking-the-fundamentals",
-      "description": "29 September 2026/१३ असोज २०८३ (मङ्गलबार, दिउँसो ३ बजे)\r\nऊर्जा नीति संवाद – ३०\r\n(ऊर्जा खबर र मार्टिन चौतारीको संयुक्त आयोजना)\r\nभोटेकोशी/त्रिशूली विपद्पछि जलविद्युत् : आधारभूत विषयमा पुनर्विचार\r\nअजय दीक्षित, जलस्रोतविद्/अनुसन्धाता",
+      "source_url": "https://martinchautari.org.np/events/The-Energy-Policy-Dialogue-will-not-take-place-this-time-on-October-27",
+      "description": "अङ्ग्रेजी महिनाको अन्तिम मङ्गलबार आयोजना गरिँदैआएको ऊर्जा नीति संवाद यसपटक (२७ अक्टोबरमा) आयोजना हुने छैन ।",
       "end": null,
       "location": null,
       "categories": [
@@ -14,14 +432,115 @@
         "Mangalbaarey"
       ],
       "image": null,
-      "id": "787910ccb341528ecaaba2c4d8a5d3408f0b841d"
+      "id": "41724bee00fd4e599120f454c30c96a4890445f9"
     },
     {
-      "title": "Call for Papers/Panels: Chautari Annual Conference – 2026 [call closed]",
+      "title": "Bhag Bheda Bhag",
+      "start": "2026-10-28T00:00:00+05:45",
+      "source_name": "Mandala Theatre",
+      "source_url": "https://www.mandalatheatre.com/events/bhag-bheda-bhag/",
+      "description": null,
+      "end": "2026-11-07T00:00:00+05:45",
+      "location": null,
+      "categories": [
+        "Theatre"
+      ],
+      "image": null,
+      "id": "412a10f1450623065ebe074ac4e0b72c0ee2b450"
+    },
+    {
+      "title": "nepa-quest 10k run 2026",
+      "start": "2026-10-28T07:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-28-0",
+      "description": "join runners of different ages and experience levels, with separate categories for elite, youth, and masters. registration includes an event t-shirt and finisher medal, with prizes for winners.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "b01ea4dede102b248a93e852be271509e9ef6ce7"
+    },
+    {
+      "title": "hike for a change",
+      "start": "2026-10-29T08:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-29-0",
+      "description": "spend a morning outdoors hiking toward tarebhir while giving back to nature through trail clean-up, tree planting, and shared activities. the hike takes around 4–5 hours, including breaks.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "d7cb3d3da1176b769db65fb579099edbbc7814db"
+    },
+    {
+      "title": "Film Screening + Q&A with the Filmmakers | Newar Buddhism in Nepal: The Baha Bahis",
+      "start": "2026-10-30T17:30:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/film-screening-qa-with-the-filmmakers-newar-buddhism-in-nepal-the-baha-bahis/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Events"
+      ],
+      "image": null,
+      "id": "5173e526f4690684161f78bca7ddfa12b12924c5"
+    },
+    {
+      "title": "Ecocide: A Threat to Nepal and the World",
+      "start": "2026-11-01T15:00:00+05:45",
+      "source_name": "Martin Chautari",
+      "source_url": "https://martinchautari.org.np/events/ecocide-a-threat-to-nepal-and-the-world",
+      "description": "1 November 2026/१५ कात्तिक २०८३ (आइतबार, दिउँसो ३ बजे)\r\nResearch Seminar Series\r\nEcocide: A Threat to Nepal and the World\r\nRupa Basnet, Environmental Lawyer\r\n\r\nAbstract\r\nEnvironmental law encompasses mainly two broad concerns: environmental protection and environmental harm. In the context of environmental protection, it is primarily concerned with conservation of biodiversity, EIA, and protection from pollution. Whereas, in relation to environmental harm, it is mainly concerned with the prevention and regulation of harm to the environment and the public. Ecocide concerns serious environmental harm caused by human activities, including activities undertaken in the course of economic development. It is also associated with the negative externalities caused by human activities. Unless negative externalities are internalized, environmental costs may continue to be imposed on the environment and the public. This raises the question of whether particularly serious environmental destruction should be recognized as a crime against the environment. Hence, recognition of ecocide as a serious crime could serve as a deterrent against environmental harm before it occurs. We need to understand that crimes against the environment can have a significant adverse impact on populations, both directly and indirectly.\r\n\r\nEcocide generally refers to severe environmental destruction or damage, and its precise legal definition remains the subject of international debate. I will discuss several relevant cases: the Chure exploitation case, the Bagmati corridor case, the Godawari Marble case, etc., with particular reference to the decisions given by the judiciary.\r\n\r\nAbout the Speaker\r\nRupa Basnet in an environmental lawyer and an ardent PIL Advocate. She works under the leadership of Senior Advocate Prakash Mani Sharma and has filed several writs in the Supreme Court of Nepal against development hazards. She was one of the applicant-litigators that challenged the construction of an airport in Nijgadh. She is currently the chairperson of Prakash Mani Sharma Academy for Public Interest Law, deputy coordinator of the Environment Law Committee of Nepal Bar Association and a member of the Environment Law Committee of Tribhuvan University where she teaches.\r\n&amp;nbsp;",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Discussion",
+        "Research Seminar Series"
+      ],
+      "image": null,
+      "id": "daf62229dff7e8fd2d63dcace2a443dcb0b57632"
+    },
+    {
+      "title": "No Discussions due to Tihar Festival",
+      "start": "2026-11-08T10:00:00+05:45",
+      "source_name": "Martin Chautari",
+      "source_url": "https://martinchautari.org.np/events/no-discussions-due-to-tihar-festival",
+      "description": "8–13 November 2026/२२–२७ कात्तिक २०८३\r\nNo Discussions due to Tihar Festival",
+      "end": "2026-11-13T17:00:00+05:45",
+      "location": null,
+      "categories": [
+        "Discussion",
+        "Research Seminar Series"
+      ],
+      "image": null,
+      "id": "1b68181a27b94ff1f782a247c96749ab5e39576a"
+    },
+    {
+      "title": "Reflexive Digital Ethnography of Nepali Digital Queer Culture Guided by Indigenous Research Methodologies",
+      "start": "2026-11-15T15:00:00+05:45",
+      "source_name": "Martin Chautari",
+      "source_url": "https://martinchautari.org.np/events/reflexive-digital-ethnography-of-nepali-digital-queer-culture-guided-by-indigenous-research-methodologies",
+      "description": "15 November 2026/२९ कात्तिक २०८३ (आइतबार, दिउँसो ३ बजे)\r\nResearch Seminar Series\r\nReflexive Digital Ethnography of Nepali Digital Queer Culture Guided by Indigenous Research Methodologies\r\nShubha Kayastha, PhD Researcher, RMIT (Royal Melbourne Institute of Technology), Australia\r\n\r\nAbstract\r\nThis presentation examines methodological and ethical issues in researching the online expression of young Nepali sexual and gender diverse (SGD) people and communities. It is based on the researcher&#039;s experiences—including, but not limited to, adopting, applying and eventually abandoning of digital content analysis as a data collection tool—for her doctoral research, while she is guided by her research participants. The presentation provides a reflexive account of the researcher’s privileges and limitations as an ‘insider-within’ researcher. It considers how the researcher negotiates the requirements and practices in Western academic institutions to avoid and resist deficit framing using Indigenous research methodologies. Through the reflexivity it was found that researchers are accountable in applying ethics of reciprocity and avoid reinforcing a colonial extractive practice while researching marginalised groups.\r\n\r\nAbout the Speaker\r\nShubha Kayastha is a feminist activist who works in the intersection of gender, sexuality and technology. She is currently a PhD researcher at RMIT (Royal Melbourne Institute of Technology), studying the navigation of privacy and visibility by young Nepali sexual and gender diverse people in digital spaces. Shubha was the co-founder and former executive director of a digital rights organization, Body &amp;amp; Data.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Discussion",
+        "Research Seminar Series"
+      ],
+      "image": null,
+      "id": "6007dcfe009a05ddbc8f18e4bdcc5eb67fd20dd6"
+    },
+    {
+      "title": "Chautari Annual Conference – 2026",
       "start": "2026-11-25T09:00:00+05:45",
       "source_name": "Martin Chautari",
       "source_url": "https://martinchautari.org.np/events/chautari-annual-conference-2026",
-      "description": "List of Selected Abstracts\r\n\r\nCall for Papers/Panels\r\nChautari Annual Conference – 2026\r\n&amp;nbsp;\r\n\r\nMartin Chautari (MC) is organizing the Chautari Annual Conference in Kathmandu, Nepal on&amp;nbsp;November 25–27, 2026. The aim of this conference is to promote research culture in the humanities and social sciences in Nepal. MC invites submission of abstracts of research papers or abstracts of theme-based panels from eligible researchers who will have completed their research by the abstract submission deadline. Interested researchers should fill this&amp;nbsp;google form.\r\n\r\n\r\nPreferences\r\n\r\n\r\n\tThe theme of the research should be related to Nepal; comparative work is also welcome provided that Nepal-related content is substantial.\r\n\tYoung/women researchers are highly encouraged to submit the abstracts.\r\n\t&amp;nbsp;\r\n\r\n\r\nAbstract guidelines\r\n\r\n\r\n\tAbstracts can be in English or Nepali and should be between 400 and 500 words in length. The title of the proposed paper, a short description of the research base, and the paper’s main arguments/findings must be clearly stated.\r\n\tAbstracts for panels should consist of its title and a brief description, and the abstracts of each paper in the panel should also be included. There can be a maximum of four papers in a panel.\r\n\tResearchers can send abstracts of up to two papers as long as they are written by multiple-author teams and two separate individuals plan to present them at the conference. At the time of submission, please indicate the names of the (separate) persons who will be presenting each of the two papers.\r\n\t&amp;nbsp;\r\n\r\n\r\nPlease note\r\n\r\n\r\n\tThis is an in-person only conference. All participants, including paper presenters and panelists, are required to register to attend the conference. The registration fee is NRs. 1000/- per person.\r\n\tParticipants are expected to make their own arrangements for travel and accommodation.\r\n\r\n\r\nImportant dates\r\n\r\nCall for abstracts: February&amp;nbsp;18, 2026\r\nAbstract submission extended deadline:&amp;nbsp;June 15, 2026&amp;nbsp;\r\nAnnouncement of accepted abstracts: June 30, 2026\r\nDeadline for the submission of full papers&amp;nbsp;(length 4000–5000 words):&amp;nbsp;September 30, 2026\r\nAnnouncement of accepted papers:&amp;nbsp;October 15, 2026\r\nConference days:&amp;nbsp;November 25–27, 2026\r\n\r\n\r\nQueries should be sent to\r\nconference@martinchautari.org.np&amp;nbsp;and&amp;nbsp;mcannualconf@gmail.com&amp;nbsp;\r\n\r\nFurther information can be obtained from\r\nConference Organizing Committee\r\n\r\nMartin Chautari\r\n27 Jeet Jung Marg, Thapathali, Kathmandu, Nepal\r\nPhone: (+977 1) 5338050/4102027/4102243\r\nUrl:&amp;nbsp;www.martinchautari.org.np\r\n\r\n&amp;nbsp;",
+      "description": "List of Selected Abstracts\r\n\r\nCall for Papers/Panels\r\nChautari Annual Conference – 2026\r\n&amp;nbsp;\r\n\r\nMartin Chautari (MC) is organizing the Chautari Annual Conference in Kathmandu, Nepal on&amp;nbsp;November 25–27, 2026. The aim of this conference is to promote research culture in the humanities and social sciences in Nepal. MC invites submission of abstracts of research papers or abstracts of theme-based panels from eligible researchers who will have completed their research by the abstract submission deadline. Interested researchers should fill this&amp;nbsp;google form.\r\n\r\n\r\nPreferences\r\n\r\n\r\n\tThe theme of the research should be related to Nepal; comparative work is also welcome provided that Nepal-related content is substantial.\r\n\tYoung/women researchers are highly encouraged to submit the abstracts.\r\n\t&amp;nbsp;\r\n\r\n\r\nAbstract guidelines\r\n\r\n\r\n\tAbstracts can be in English or Nepali and should be between 400 and 500 words in length. The title of the proposed paper, a short description of the research base, and the paper’s main arguments/findings must be clearly stated.\r\n\tAbstracts for panels should consist of its title and a brief description, and the abstracts of each paper in the panel should also be included. There can be a maximum of four papers in a panel.\r\n\tResearchers can send abstracts of up to two papers as long as they are written by multiple-author teams and two separate individuals plan to present them at the conference. At the time of submission, please indicate the names of the (separate) persons who will be presenting each of the two papers.\r\n\t&amp;nbsp;\r\n\r\n\r\nPlease note\r\n\r\n\r\n\tThis is an in-person only conference. All participants, including paper presenters and panelists, are required to register to attend the conference. The registration fee is NRs. 1000/- per person.\r\n\tParticipants are expected to make their own arrangements for travel and accommodation.\r\n\r\n\r\nImportant dates\r\n\r\nCall for abstracts: February&amp;nbsp;18, 2026\r\nAbstract submission extended deadline:&amp;nbsp;June 15, 2026&amp;nbsp;\r\nAnnouncement of accepted abstracts: June 30, 2026\r\nExtended deadline for the submission of full papers (length 4000–5000 words):&amp;nbsp;October 30, 2026\r\nAnnouncement of accepted papers:&amp;nbsp;November 6, 2026\r\nConference days:&amp;nbsp;November 25–27, 2026\r\n\r\n\r\nQueries should be sent to\r\nconference@martinchautari.org.np&amp;nbsp;and&amp;nbsp;mcannualconf@gmail.com&amp;nbsp;\r\n\r\nFurther information can be obtained from\r\nConference Organizing Committee\r\n\r\nMartin Chautari\r\n27 Jeet Jung Marg, Thapathali, Kathmandu, Nepal\r\nPhone: (+977 1) 5338050/4102027/4102243\r\nUrl:&amp;nbsp;www.martinchautari.org.np\r\n\r\n&amp;nbsp;",
       "end": "2026-11-27T17:00:00+05:45",
       "location": null,
       "categories": [

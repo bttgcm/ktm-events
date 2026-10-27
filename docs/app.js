@@ -9,6 +9,18 @@
   var allEvents = [];
   var currentFilter = "upcoming";
 
+  // Apple/Google/Outlook all treat a webcal:// link as "subscribe to this
+  // feed" (auto-refreshing) rather than "download once" - swap the scheme
+  // on the same absolute URL so clicking the link offers a subscription.
+  (function setupSubscribeLink() {
+    var subscribeLink = document.getElementById("subscribe-link");
+    var subscribeUrlEl = document.getElementById("subscribe-url");
+    if (!subscribeLink) return;
+    var absoluteUrl = new URL("events.ics", window.location.href).href;
+    subscribeLink.href = absoluteUrl.replace(/^https?:/, "webcal:");
+    if (subscribeUrlEl) subscribeUrlEl.textContent = absoluteUrl;
+  })();
+
   var dateFormatter = new Intl.DateTimeFormat(undefined, {
     weekday: "short",
     day: "numeric",
@@ -45,6 +57,66 @@
     if (!event.end) return start;
     var end = dateFormatter.format(new Date(event.end));
     return start === end ? start : start + " – " + end;
+  }
+
+  var DEFAULT_EVENT_DURATION_MS = 60 * 60 * 1000; // used when the source gives no end time
+
+  // Compact UTC form required by RFC 5545, e.g. "20260929T091500Z".
+  function toICSDateUTC(date) {
+    return date.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
+  }
+
+  // Escape TEXT values per RFC 5545 (backslash, comma, semicolon, newline).
+  function escapeICSText(text) {
+    return String(text)
+      .replace(/\\/g, "\\\\")
+      .replace(/,/g, "\\,")
+      .replace(/;/g, "\\;")
+      .replace(/\r?\n/g, "\\n");
+  }
+
+  function buildICS(event) {
+    var start = new Date(event.start);
+    var end = event.end ? new Date(event.end) : new Date(start.getTime() + DEFAULT_EVENT_DURATION_MS);
+    var descriptionParts = [];
+    if (event.description) descriptionParts.push(decodeEntities(event.description));
+    descriptionParts.push(event.source_url);
+    var lines = [
+      "BEGIN:VCALENDAR",
+      "VERSION:2.0",
+      "PRODID:-//Kathmandu Cultural Events//EN",
+      "BEGIN:VEVENT",
+      "UID:" + event.id + "@ktm-events",
+      "DTSTAMP:" + toICSDateUTC(new Date()),
+      "DTSTART:" + toICSDateUTC(start),
+      "DTEND:" + toICSDateUTC(end),
+      "SUMMARY:" + escapeICSText(event.title),
+      "DESCRIPTION:" + escapeICSText(descriptionParts.join("\n\n")),
+      "URL:" + event.source_url,
+    ];
+    if (event.location) lines.push("LOCATION:" + escapeICSText(event.location));
+    lines.push("END:VEVENT", "END:VCALENDAR");
+    return lines.join("\r\n") + "\r\n";
+  }
+
+  function slugify(text) {
+    return text
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .slice(0, 60) || "event";
+  }
+
+  function downloadICS(event) {
+    var blob = new Blob([buildICS(event)], { type: "text/calendar;charset=utf-8" });
+    var url = URL.createObjectURL(blob);
+    var link = document.createElement("a");
+    link.href = url;
+    link.download = slugify(event.title) + ".ics";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
   }
 
   function renderCard(event) {
@@ -91,6 +163,15 @@
       });
       card.appendChild(tagsEl);
     }
+
+    var calendarBtn = document.createElement("button");
+    calendarBtn.className = "add-to-calendar";
+    calendarBtn.type = "button";
+    calendarBtn.textContent = "Add to Calendar";
+    calendarBtn.addEventListener("click", function () {
+      downloadICS(event);
+    });
+    card.appendChild(calendarBtn);
 
     return card;
   }

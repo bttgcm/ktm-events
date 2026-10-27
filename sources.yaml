@@ -1,3 +1,19 @@
+# soscbaha.org is intentionally left out: it sits behind a Cloudflare
+# bot-challenge page, so a plain HTTP request never reaches real content.
+# Scraping it would require a full headless browser (e.g. Playwright),
+# which is a bigger dependency/maintenance tradeoff than this project
+# currently takes on - revisit if that becomes worth it.
+
 sources:
   - name: martin_chautari
+    enabled: true
+  - name: taragaon_next
+    enabled: true
+  - name: mandala_theatre
+    enabled: true
+  - name: katajaam
+    enabled: true
+  - name: nepal_art_council
+    enabled: true
+  - name: spotted_by_sattya
     enabled: true

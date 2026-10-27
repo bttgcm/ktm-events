@@ -37,6 +37,31 @@ header {
 h1 { margin: 0 0 0.25rem; font-size: 1.8rem; }
 .subtitle { margin: 0 0 1rem; color: var(--muted); }
 
+.subscribe-line {
+  margin: 0 0 1rem;
+  font-size: 0.85rem;
+}
+
+.subscribe-line a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.subscribe-line a:hover { text-decoration: underline; }
+
+.subscribe-hint {
+  color: var(--muted);
+  margin-left: 0.4rem;
+}
+
+.subscribe-hint code {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.05rem 0.4rem;
+}
+
 .filters {
   display: flex;
   justify-content: center;
@@ -125,6 +150,22 @@ h2.month-heading {
   border-radius: 999px;
   padding: 0.15rem 0.6rem;
   color: var(--muted);
+}
+
+.add-to-calendar {
+  margin-top: 0.75rem;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  padding: 0.35rem 0.9rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.add-to-calendar:hover {
+  background: var(--accent);
+  color: var(--accent-fg);
 }
 
 #status, .empty-message {
