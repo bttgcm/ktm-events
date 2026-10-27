@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:32:09.058963+00:00",
+  "generated_at": "2026-10-27T09:33:30.823167+00:00",
   "events": [
     {
       "title": "Deities of Nepal III",
@@ -26,6 +26,230 @@
       ],
       "image": null,
       "id": "c84e16ef5070ad10a6748c1f0aeb4ce2dce4312b"
+    },
+    {
+      "title": "nada yoga: dhrupad sandhya",
+      "start": "2026-09-27T17:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/DdWi2z_TpJ_/#2026-09-27-1",
+      "description": "an evening of dhrupad classical music with vocal performances by inoue sou and vishal bhattarai, accompanied by rakesh shakya and yaman sinjali on pakhawaj. Taragaon Next, Boudha, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Music"
+      ],
+      "image": null,
+      "id": "785887f27458a7505db44dbb542f0bbc6aafbdd0"
+    },
+    {
+      "title": "women’s night run",
+      "start": "2026-09-27T17:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/DdfuaPSpMPQ/#2026-09-27-2",
+      "description": "a women’s evening run of around 5 km, followed by drinks and a casual hangout with the running community. Maya Coffee Nepal, Kupondole, registration required, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "50f204554a930bc6e31cfcf42980081184942448"
+    },
+    {
+      "title": "dialogue of strings & rhythm",
+      "start": "2026-09-28T20:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/Dc0MxfVpIPX/?hl=en#2026-09-28-0",
+      "description": "an indian classical performance by amitesh basu and sudip chatterjee, bringing mohan veena and tabla together in a duet. Jazz Upstairs, Lazimpat, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Music"
+      ],
+      "image": null,
+      "id": "328b590c30d7844ef8b4edfd52f8b1da0c2362f6"
+    },
+    {
+      "title": "cosmic wonder: conversations on astrology, healing and meditation",
+      "start": "2026-09-29T15:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/Ddf-VTRiH8T/#2026-09-29-0",
+      "description": "an artist session with jimmy thapa exploring astrology, healing, meditation, and spiritual practice through conversation. Nepal Art Council, Babarmahal, registration required, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "d45c501068687b97b1d11637cb93a9cfdb54f9a7"
+    },
+    {
+      "title": "everest, the mother goddess",
+      "start": "2026-09-29T17:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/september-25-october-1#2026-09-29-1",
+      "description": "a documentary following orianne aymard’s journey toward climbing everest after a cerebral hemorrhage changed the course of her life, followed by a q&a with aymard. Alliance Française, Pulchowk, free entry",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Film"
+      ],
+      "image": null,
+      "id": "9f94d20f321ea32aa6dccf67278e07bcfb9e686f"
+    },
+    {
+      "title": "new insights into mustang’s past",
+      "start": "2026-09-30T14:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSfZTjMcfuLdZMrGa0Q9KqcVSJ__CQvxIaRFEvcJn5444UoTFg/viewform#2026-09-30-0",
+      "description": "researchers from the french-nepalese archaeological mission in mustang share recent findings from their work, followed by an open q&a. Alliance Française, Pulchowk, registration required, site",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "c78724408a438ab9e6a3d5f7efd37f0e2bd9ac2d"
+    },
+    {
+      "title": "intentional dating",
+      "start": "2026-09-30T18:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://www.instagram.com/p/DdlpMb1TZC1/#2026-09-30-1",
+      "description": "a social dining event for ages 35+, with three courses and three one-on-one conversations over dinner. Mercure Kathmandu, Sukedhara Heights, registration required, instagram",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Social"
+      ],
+      "image": null,
+      "id": "f8e3fcaa91222b17e822d00c4dcc74f845c741a7"
+    },
+    {
+      "title": "brahman 2026: an exploration of form, nature & spirit",
+      "start": "2026-10-02T17:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-02-0",
+      "description": "a solo exhibition by pinky singh khanuja exploring the interconnectedness of form, nature, and spirit through her artistic practice.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "ec5520c8bbf074cfa89cd2d1073d9ae89c26bce5"
+    },
+    {
+      "title": "thimi heritage walk",
+      "start": "2026-10-03T07:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-03-0",
+      "description": "a guided walk through thimi exploring newar settlement patterns, traditional architecture, pottery, temples, monasteries, festivals, and changing local heritage.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Heritage"
+      ],
+      "image": null,
+      "id": "220bf62bc376961fa68f1400cf5049d60dd6d534"
+    },
+    {
+      "title": "pacelab",
+      "start": "2026-10-04T05:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-04-0",
+      "description": "an early morning 5k community run at a 6:45/km pace, bringing runners together for movement and a chance to meet new people.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "be5bb1ca41d26b5284d20e9c1d401f9c6b07f4da"
+    },
+    {
+      "title": "artist session: tenzin norbu",
+      "start": "2026-10-05T14:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-05-0",
+      "description": "artist tenzin norbu shares the story of milarepa and other tales from dolpo as part of the deities of nepal exhibition programme.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "0cebb00360109d4cd38edc81eb718a13e3885d81"
+    },
+    {
+      "title": "cosmic wonder",
+      "start": "2026-10-06T15:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-06-0",
+      "description": "an artist session with jimmy thapa exploring astrology, healing, meditation, and spiritual practice through conversation.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "5240fae9a5b14561c5ec7e7b74752634571bcd18"
+    },
+    {
+      "title": "cinematography and film sound in documentary filmmaking",
+      "start": "2026-10-08T14:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-2-october-8#2026-10-08-0",
+      "description": "a two-day masterclass with stephan krause and tomas bastian covering documentary research and planning, cinematography, sound, editing, and production, with hands-on camera and sound practice.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Workshop"
+      ],
+      "image": null,
+      "id": "ff53f7bee55e5c983f2c5eac52769023eecdca8f"
+    },
+    {
+      "title": "kathmandu marathon shakeout run",
+      "start": "2026-10-09T06:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-9-october-15#2026-10-09-0",
+      "description": "a relaxed 4 km community run ahead of the marathon, open to all ages and abilities with no pace goals. warm-up at 6:15am, run starts at 6:30am.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "dfc86a0152bc9406b0d207967616147503f6ebd7"
+    },
+    {
+      "title": "bhaktapur photowalk",
+      "start": "2026-10-10T08:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-9-october-15#2026-10-10-0",
+      "description": "a guided photography walk exploring historic monuments and living heritage, inviting participants to capture and share stories of the city as part of wiki loves monuments 2026.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Heritage"
+      ],
+      "image": null,
+      "id": "faf85b647edf161bb9ae72d06d03be361b9a3722"
+    },
+    {
+      "title": "women on the verge of a nervous breakdown",
+      "start": "2026-10-11T15:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-9-october-15#2026-10-11-0",
+      "description": "a screening of pedro almodóvar’s 1988 dark comedy following a woman caught in a spiral of heartbreak, disappearing lovers, frantic phone calls, and increasingly chaotic encounters.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Film"
+      ],
+      "image": null,
+      "id": "10a4564f8577c5f46efa069ee36d0471d65c2cb6"
     },
     {
       "title": "Taragaon Talks: Documenting Kathmandu – How Digital Communities Look at Heritage",
@@ -84,6 +308,90 @@
       "id": "bca43837105d33b20181ab2d33a434358e822263"
     },
     {
+      "title": "trulycentral book release",
+      "start": "2026-10-15T15:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-9-october-15#2026-10-15-0",
+      "description": "abish man shakya launches his debut essay anthology, bringing together personal stories, reflections, and fiction, followed by a book chat with nirdishtha raj sapkota.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Literature"
+      ],
+      "image": null,
+      "id": "7a458db09f5f7f594b15aeac03e1e6bb78a97261"
+    },
+    {
+      "title": "bihani sathi ko sathi",
+      "start": "2026-10-16T13:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-16-october-22#2026-10-16-0",
+      "description": "a relaxed dashain potluck with shared food, warm drinks, and time to connect with others on a self-help journey. bring a dish to share, and a friend if you’d like.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "4f3ca4a1455cf0d67a7c2b2f66f259b72b8ec5ff"
+    },
+    {
+      "title": "kipu mohani nakha fest 2083",
+      "start": "2026-10-17T13:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-16-october-22#2026-10-17-0",
+      "description": "celebrate fulpati, the seventh day of dashain in kirtipur with traditional newa music, contemporary live performances, and a lively community gathering.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Festival"
+      ],
+      "image": null,
+      "id": "395af66fbe11ac3e5c711fc0979efe29302310a6"
+    },
+    {
+      "title": "shades of sound ft. orthodox",
+      "start": "2026-10-23T19:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-23-0",
+      "description": "ease into the weekend with a live mix of jazz, funk, and reggae, bringing groove-driven rhythms and good energy to your friday night.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Music"
+      ],
+      "image": null,
+      "id": "70033853fcc03858736a571c1c11c21728301dfe"
+    },
+    {
+      "title": "tahaja hills sketch meet",
+      "start": "2026-10-24T11:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-24-0",
+      "description": "spend the morning sketching outdoors alongside fellow artists, surrounded by the hills of bhaktapur.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "a0078b4d5718ba7739cedb6f6ca70f7e56db02fe"
+    },
+    {
+      "title": "kathmandu heritage run",
+      "start": "2026-10-25T06:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-25-0",
+      "description": "explore the city’s historic neighborhoods on a 10 km community run, open to both regular runners and beginners.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "d543385154a4c0a329786bedb003de7de470bd06"
+    },
+    {
       "title": "Doodling at Taragaon",
       "start": "2026-10-26T10:00:00+05:45",
       "source_name": "Taragaon Next",
@@ -125,6 +433,34 @@
       ],
       "image": null,
       "id": "412a10f1450623065ebe074ac4e0b72c0ee2b450"
+    },
+    {
+      "title": "nepa-quest 10k run 2026",
+      "start": "2026-10-28T07:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-28-0",
+      "description": "join runners of different ages and experience levels, with separate categories for elite, youth, and masters. registration includes an event t-shirt and finisher medal, with prizes for winners.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "b01ea4dede102b248a93e852be271509e9ef6ce7"
+    },
+    {
+      "title": "hike for a change",
+      "start": "2026-10-29T08:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-29-0",
+      "description": "spend a morning outdoors hiking toward tarebhir while giving back to nature through trail clean-up, tree planting, and shared activities. the hike takes around 4–5 hours, including breaks.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "d7cb3d3da1176b769db65fb579099edbbc7814db"
     },
     {
       "title": "Film Screening + Q&A with the Filmmakers | Newar Buddhism in Nepal: The Baha Bahis",

@@ -7,11 +7,19 @@ containing one or more "<strong>"-led event blocks (time/category/
 title, then a description and an "<em>" venue line with an optional
 link).
 
-We fetch Substack's JSON posts API rather than the RSS feed: the RSS
-endpoint (/feed) carries the same content but its CDN 403s requests
-from GitHub Actions' runner IPs no matter what headers are sent,
-while /api/v1/posts (used by Substack's own web UI) isn't subject to
-that block and returns each post's full body_html in one request.
+We fetch Substack's JSON posts API (used by its own web UI) rather
+than the RSS feed, since it returns each post's full body_html in
+one request.
+
+Substack's CDN blanket-403s every *.substack.com endpoint - RSS and
+this JSON API alike - when the request comes from GitHub Actions'
+runner IPs, no matter what headers are sent; it's an IP-range block,
+not a per-endpoint or header check. So the request is routed through
+Jina AI's Reader service (r.jina.ai), which fetches the URL from its
+own infrastructure and hands back the body - the actual request to
+Substack never originates from GitHub's IPs. The reader wraps the
+response in a short text preamble ("Title: ...\nURL Source: ...\n
+Markdown Content:\n") before the real body, which is stripped off.
 
 This is the most implementation-heavy adapter of the set: it depends
 on a prose convention the newsletter author could change at any time,
@@ -31,7 +39,9 @@ from bs4 import BeautifulSoup
 from .base import Event, EventSourceAdapter
 
 POSTS_API_URL = "https://spottedbysattya.substack.com/api/v1/posts"
-REQUEST_TIMEOUT = 10
+READER_PROXY_PREFIX = "https://r.jina.ai/"
+READER_CONTENT_MARKER = "Markdown Content:\n"
+REQUEST_TIMEOUT = 20  # the reader proxy hop adds latency over a direct fetch
 MAX_POSTS = 6  # a handful of recent weekly digests is plenty
 
 # "friday - september 25" (no year given)
@@ -47,11 +57,21 @@ class SpottedBySattyaAdapter(EventSourceAdapter):
     name = "Spotted by Sattya"
 
     def fetch_events(self) -> list[Event]:
+        target_url = f"{POSTS_API_URL}?limit={MAX_POSTS}"
         response = requests.get(
-            POSTS_API_URL, params={"limit": MAX_POSTS}, timeout=REQUEST_TIMEOUT
+            READER_PROXY_PREFIX + target_url,
+            headers={"User-Agent": "Mozilla/5.0"},
+            timeout=REQUEST_TIMEOUT,
         )
         response.raise_for_status()
-        return self._parse_feed(response.content)
+        return self._parse_feed(self._strip_reader_preamble(response.text).encode("utf-8"))
+
+    @staticmethod
+    def _strip_reader_preamble(text: str) -> str:
+        marker_index = text.find(READER_CONTENT_MARKER)
+        if marker_index == -1:
+            return text
+        return text[marker_index + len(READER_CONTENT_MARKER):]
 
     def _parse_feed(self, json_bytes: bytes) -> list[Event]:
         posts = json.loads(json_bytes)
