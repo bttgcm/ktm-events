@@ -4,7 +4,7 @@ from pathlib import Path
 from scrapers.spotted_by_sattya import SpottedBySattyaAdapter
 
 FIXTURE_BYTES = (
-    Path(__file__).parent / "fixtures" / "spotted_by_sattya_feed.xml"
+    Path(__file__).parent / "fixtures" / "spotted_by_sattya_posts.json"
 ).read_bytes()
 
 

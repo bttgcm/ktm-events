@@ -1,12 +1,17 @@
 """Adapter for the "Spotted by Sattya" Substack newsletter.
 
 Unlike the other sources, this isn't a per-event listing - it's a
-weekly digest. Each RSS item covers one week and its content:encoded
-body is a series of "<h3>weekday - month day</h3>" day headings, each
-followed by a single "<p>" containing one or more "<strong>"-led event
-blocks (time/category/title, then a description and an "<em>" venue
-line with an optional link). We parse the RSS feed directly rather
-than the public archive page - no HTML fetch of the site itself needed.
+weekly digest. Each post's body_html is a series of "<h3>weekday -
+month day</h3>" day headings, each followed by a single "<p>"
+containing one or more "<strong>"-led event blocks (time/category/
+title, then a description and an "<em>" venue line with an optional
+link).
+
+We fetch Substack's JSON posts API rather than the RSS feed: the RSS
+endpoint (/feed) carries the same content but its CDN 403s requests
+from GitHub Actions' runner IPs no matter what headers are sent,
+while /api/v1/posts (used by Substack's own web UI) isn't subject to
+that block and returns each post's full body_html in one request.
 
 This is the most implementation-heavy adapter of the set: it depends
 on a prose convention the newsletter author could change at any time,
@@ -15,32 +20,19 @@ more so than the other sources' page markup.
 
 from __future__ import annotations
 
+import json
 import re
 from datetime import datetime, timezone
-from email.utils import parsedate_to_datetime
 from typing import Optional
-from xml.etree import ElementTree
 
 import requests
 from bs4 import BeautifulSoup
 
 from .base import Event, EventSourceAdapter
 
-FEED_URL = "https://spottedbysattya.substack.com/feed"
+POSTS_API_URL = "https://spottedbysattya.substack.com/api/v1/posts"
 REQUEST_TIMEOUT = 10
 MAX_POSTS = 6  # a handful of recent weekly digests is plenty
-
-# Substack's CDN 403s requests with no User-Agent (the default
-# "python-requests/x.y"), which is what GitHub Actions runners send -
-# a real browser UA gets through from both local machines and CI.
-REQUEST_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
-    )
-}
-
-CONTENT_ENCODED_TAG = "{http://purl.org/rss/1.0/modules/content/}encoded"
 
 # "friday - september 25" (no year given)
 DAY_HEADING_PATTERN = re.compile(
@@ -55,32 +47,34 @@ class SpottedBySattyaAdapter(EventSourceAdapter):
     name = "Spotted by Sattya"
 
     def fetch_events(self) -> list[Event]:
-        response = requests.get(FEED_URL, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
+        response = requests.get(
+            POSTS_API_URL, params={"limit": MAX_POSTS}, timeout=REQUEST_TIMEOUT
+        )
         response.raise_for_status()
         return self._parse_feed(response.content)
 
-    def _parse_feed(self, xml_bytes: bytes) -> list[Event]:
-        root = ElementTree.fromstring(xml_bytes)
+    def _parse_feed(self, json_bytes: bytes) -> list[Event]:
+        posts = json.loads(json_bytes)
         events: list[Event] = []
-        for item in root.findall("./channel/item")[:MAX_POSTS]:
-            events.extend(self._parse_item(item))
+        for post in posts[:MAX_POSTS]:
+            events.extend(self._parse_post(post))
         return events
 
-    def _parse_item(self, item) -> list[Event]:
-        content_el = item.find(CONTENT_ENCODED_TAG)
-        link_el = item.find("link")
-        if content_el is None or content_el.text is None or link_el is None or not link_el.text:
+    def _parse_post(self, post: dict) -> list[Event]:
+        body_html = post.get("body_html")
+        post_url = post.get("canonical_url")
+        if not body_html or not post_url:
             return []
 
-        pub_date_el = item.find("pubDate")
         reference_date = datetime.now(timezone.utc)
-        if pub_date_el is not None and pub_date_el.text:
+        post_date = post.get("post_date")
+        if post_date:
             try:
-                reference_date = parsedate_to_datetime(pub_date_el.text)
-            except (TypeError, ValueError):
+                reference_date = datetime.fromisoformat(post_date.replace("Z", "+00:00"))
+            except ValueError:
                 pass
 
-        return self._parse_content(content_el.text, link_el.text.strip(), reference_date)
+        return self._parse_content(body_html, post_url, reference_date)
 
     def _parse_content(self, html: str, post_url: str, reference_date: datetime) -> list[Event]:
         soup = BeautifulSoup(html, "html.parser")
