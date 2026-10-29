@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:07:50.331568+00:00",
+  "generated_at": "2026-10-29T09:05:59.688505+00:00",
   "events": [
     {
       "title": "Deities of Nepal III",
@@ -26,20 +26,6 @@
       ],
       "image": null,
       "id": "c84e16ef5070ad10a6748c1f0aeb4ce2dce4312b"
-    },
-    {
-      "title": "dialogue of strings & rhythm",
-      "start": "2026-09-28T20:00:00+05:45",
-      "source_name": "Spotted by Sattya",
-      "source_url": "https://www.instagram.com/p/Dc0MxfVpIPX/?hl=en#2026-09-28-0",
-      "description": "an indian classical performance by amitesh basu and sudip chatterjee, bringing mohan veena and tabla together in a duet. Jazz Upstairs, Lazimpat, instagram",
-      "end": null,
-      "location": null,
-      "categories": [
-        "Music"
-      ],
-      "image": null,
-      "id": "328b590c30d7844ef8b4edfd52f8b1da0c2362f6"
     },
     {
       "title": "cosmic wonder: conversations on astrology, healing and meditation",
@@ -447,6 +433,21 @@
       ],
       "image": null,
       "id": "daf62229dff7e8fd2d63dcace2a443dcb0b57632"
+    },
+    {
+      "title": "पुस्तक छलफल | औसत एउटा जिन्दगी",
+      "start": "2026-11-03T15:00:00+05:45",
+      "source_name": "Martin Chautari",
+      "source_url": "https://martinchautari.org.np/events/book-discussion-Ausat-Euta-Jindagi",
+      "description": "3 November 2026/17 कात्तिक २०८३ (मंगलबार, दिउँसो ३ बजे)\r\nपुस्तक छलफल\r\nवसन्त थापा लिखित\r\nऔसत एउटा जिन्दगीमाथि छलफल\r\n(फाइनप्रिन्ट, २०८३)\r\n\r\nवक्ताहरू\r\nसुरेश ढकाल, मानवशास्त्री\r\nमञ्जुश्री थापा, लेखक",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Discussion",
+        "Mangalbaarey"
+      ],
+      "image": null,
+      "id": "11d3cbad7e3e0bd343feb2b71341c62159373faa"
     },
     {
       "title": "No Discussions due to Tihar Festival",
