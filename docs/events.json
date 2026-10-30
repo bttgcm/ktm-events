@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:05:59.688505+00:00",
+  "generated_at": "2026-10-30T09:16:38.582754+00:00",
   "events": [
     {
       "title": "Deities of Nepal III",
@@ -26,48 +26,6 @@
       ],
       "image": null,
       "id": "c84e16ef5070ad10a6748c1f0aeb4ce2dce4312b"
-    },
-    {
-      "title": "cosmic wonder: conversations on astrology, healing and meditation",
-      "start": "2026-09-29T15:00:00+05:45",
-      "source_name": "Spotted by Sattya",
-      "source_url": "https://www.instagram.com/p/Ddf-VTRiH8T/#2026-09-29-0",
-      "description": "an artist session with jimmy thapa exploring astrology, healing, meditation, and spiritual practice through conversation. Nepal Art Council, Babarmahal, registration required, instagram",
-      "end": null,
-      "location": null,
-      "categories": [
-        "Talk"
-      ],
-      "image": null,
-      "id": "d45c501068687b97b1d11637cb93a9cfdb54f9a7"
-    },
-    {
-      "title": "everest, the mother goddess",
-      "start": "2026-09-29T17:30:00+05:45",
-      "source_name": "Spotted by Sattya",
-      "source_url": "https://spottedbysattya.substack.com/p/september-25-october-1#2026-09-29-1",
-      "description": "a documentary following orianne aymard’s journey toward climbing everest after a cerebral hemorrhage changed the course of her life, followed by a q&a with aymard. Alliance Française, Pulchowk, free entry",
-      "end": null,
-      "location": null,
-      "categories": [
-        "Film"
-      ],
-      "image": null,
-      "id": "9f94d20f321ea32aa6dccf67278e07bcfb9e686f"
-    },
-    {
-      "title": "new insights into mustang’s past",
-      "start": "2026-09-30T14:00:00+05:45",
-      "source_name": "Spotted by Sattya",
-      "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSfZTjMcfuLdZMrGa0Q9KqcVSJ__CQvxIaRFEvcJn5444UoTFg/viewform#2026-09-30-0",
-      "description": "researchers from the french-nepalese archaeological mission in mustang share recent findings from their work, followed by an open q&a. Alliance Française, Pulchowk, registration required, site",
-      "end": null,
-      "location": null,
-      "categories": [
-        "Talk"
-      ],
-      "image": null,
-      "id": "c78724408a438ab9e6a3d5f7efd37f0e2bd9ac2d"
     },
     {
       "title": "intentional dating",
@@ -420,6 +378,34 @@
       "id": "5173e526f4690684161f78bca7ddfa12b12924c5"
     },
     {
+      "title": "newar buddhism in nepal: the baha bahis",
+      "start": "2026-10-30T17:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-30-november-5#2026-10-30-0",
+      "description": "explore the history, rituals, and living traditions of newa buddhist monasteries through a documentary screening, followed by a q&a with the filmmakers.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Film"
+      ],
+      "image": null,
+      "id": "99ab6a4d029a72f3698b952e2a78f3c03d4d20dd"
+    },
+    {
+      "title": "what’s on your plate?",
+      "start": "2026-10-31T13:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-30-november-5#2026-10-31-0",
+      "description": "bring a favorite dish or snack to share with 3–4 people, and spend an afternoon connecting with other women over food, games, stories, and conversation.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "e07016b46e8a3be3f7414ec48308aedf9057706a"
+    },
+    {
       "title": "Ecocide: A Threat to Nepal and the World",
       "start": "2026-11-01T15:00:00+05:45",
       "source_name": "Martin Chautari",
@@ -448,6 +434,34 @@
       ],
       "image": null,
       "id": "11d3cbad7e3e0bd343feb2b71341c62159373faa"
+    },
+    {
+      "title": "what remains unseen",
+      "start": "2026-11-03T18:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-30-november-5#2026-11-03-0",
+      "description": "a new exhibition presented by dot line space art foundation and gallery mcube, opening november 3 and on view until november 20.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "4858c3705a2f1bfba5889076f5b2b6f9377d252e"
+    },
+    {
+      "title": "solar cyborg: amble skuse in conversation with nirvik maskey",
+      "start": "2026-11-04T19:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-30-november-5#2026-11-04-0",
+      "description": "explore an experimental art project featuring a cyborg with solar-powered wings and a mirrored helmet equipped with cameras and microphones.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "285040114970695d5f77042265dcc83969d3f610"
     },
     {
       "title": "No Discussions due to Tihar Festival",
