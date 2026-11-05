@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:17:25.175561+00:00",
+  "generated_at": "2026-11-05T10:02:31.957666+00:00",
   "events": [
     {
       "title": "Deities of Nepal III",
@@ -84,20 +84,6 @@
       "id": "bca43837105d33b20181ab2d33a434358e822263"
     },
     {
-      "title": "Doodling at Taragaon",
-      "start": "2026-10-26T10:00:00+05:45",
-      "source_name": "Taragaon Next",
-      "source_url": "https://taragaonnext.com/events/doodling-at-taragaon-4/",
-      "description": null,
-      "end": null,
-      "location": null,
-      "categories": [
-        "Recurring Events"
-      ],
-      "image": null,
-      "id": "3c789b22af893d15028d8e0e696660a219851115"
-    },
-    {
       "title": "Bhag Bheda Bhag",
       "start": "2026-10-28T00:00:00+05:45",
       "source_name": "Mandala Theatre",
@@ -126,19 +112,32 @@
       "id": "5173e526f4690684161f78bca7ddfa12b12924c5"
     },
     {
-      "title": "पुस्तक छलफल | औसत एउटा जिन्दगी",
-      "start": "2026-11-03T15:00:00+05:45",
-      "source_name": "Martin Chautari",
-      "source_url": "https://martinchautari.org.np/events/book-discussion-Ausat-Euta-Jindagi",
-      "description": "3 November 2026/17 कात्तिक २०८३ (मंगलबार, दिउँसो ३ बजे)\r\nपुस्तक छलफल\r\nवसन्त थापा लिखित\r\nऔसत एउटा जिन्दगीमाथि छलफल\r\n(फाइनप्रिन्ट, २०८३)\r\n\r\nवक्ताहरू\r\nसुरेश ढकाल, मानवशास्त्री\r\nमञ्जुश्री थापा, लेखक",
+      "title": "Solar Cyborg by Amble Skuse, in conversation with Nirvik Maskey",
+      "start": "2026-11-04T19:30:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/solar-cyborg-by-amble-skuse-in-conversation-with-nirvik-maskey/",
+      "description": null,
       "end": null,
       "location": null,
       "categories": [
-        "Discussion",
-        "Mangalbaarey"
+        "Events"
       ],
       "image": null,
-      "id": "11d3cbad7e3e0bd343feb2b71341c62159373faa"
+      "id": "b8ffe1a2a8ee493c3a8ee87815d2e9aec7d4876f"
+    },
+    {
+      "title": "Deusi Bhailo Fundraiser by Maitrī Music Therapy Nepal",
+      "start": "2026-11-06T16:00:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/deusi-bhailo-fundraiser-by-maitri-music-therapy-nepal/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Events"
+      ],
+      "image": null,
+      "id": "3bd7530f3c0ac49c4f441f8afcf773cfb7920e40"
     },
     {
       "title": "No Discussions due to Tihar Festival",
@@ -171,6 +170,35 @@
       "id": "6007dcfe009a05ddbc8f18e4bdcc5eb67fd20dd6"
     },
     {
+      "title": "Writing Circle – A Space for Writing Enthusiasts to Find a Community",
+      "start": "2026-11-19T15:00:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/5471/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Events"
+      ],
+      "image": null,
+      "id": "bd9502238e647ba9b38676e643f7ad0437b0a723"
+    },
+    {
+      "title": "फेरिँदो नेपाली भात-भान्सा",
+      "start": "2026-11-22T15:00:00+05:45",
+      "source_name": "Martin Chautari",
+      "source_url": "https://martinchautari.org.np/events/Changing-Nepali-cuisine",
+      "description": "22 November 2026/६ मङ्सिर २०८३ (आइतबार, दिउँसो ३ बजे)\r\nफेरिँदो नेपाली भात-भान्सा\r\nकेदार शर्मा, लेखक/सम्पादक",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Discussion",
+        "Research Seminar Series"
+      ],
+      "image": null,
+      "id": "2f17162e03d5c5d42182b8d04536390e002c1d29"
+    },
+    {
       "title": "Chautari Annual Conference – 2026",
       "start": "2026-11-25T09:00:00+05:45",
       "source_name": "Martin Chautari",
@@ -184,6 +212,34 @@
       ],
       "image": null,
       "id": "6d457de5bfb41e11acb5830e27d3633c8e7b9834"
+    },
+    {
+      "title": "Free Film Screening: Himalayan Dreams: Tales of Lhasa Newar Traders + Q&A with the Filmmakers",
+      "start": "2026-11-27T17:00:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/free-film-screening-himalayan-dreams-tales-of-lhasa-newar-traders-qa-with-the-filmmakers/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Events"
+      ],
+      "image": null,
+      "id": "b07b975351cda9637e94fdd535a95db18b802058"
+    },
+    {
+      "title": "Doodling at Taragaon",
+      "start": "2026-11-29T10:00:00+05:45",
+      "source_name": "Taragaon Next",
+      "source_url": "https://taragaonnext.com/events/doodling-at-taragaon-4/",
+      "description": null,
+      "end": null,
+      "location": null,
+      "categories": [
+        "Recurring Events"
+      ],
+      "image": null,
+      "id": "3c789b22af893d15028d8e0e696660a219851115"
     }
   ]
 }
