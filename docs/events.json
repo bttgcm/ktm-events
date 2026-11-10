@@ -1,34 +1,6 @@
 {
-  "generated_at": "2026-11-09T10:36:47.795024+00:00",
+  "generated_at": "2026-11-10T10:36:57.376985+00:00",
   "events": [
-    {
-      "title": "Shree Bijjo Bhoot- Katha Sudurko",
-      "start": "2026-09-22T00:00:00+05:45",
-      "source_name": "Mandala Theatre",
-      "source_url": "https://www.mandalatheatre.com/events/shree-bijjo-bhoot-katha-sudurko/",
-      "description": null,
-      "end": "2026-10-11T00:00:00+05:45",
-      "location": null,
-      "categories": [
-        "Theatre"
-      ],
-      "image": null,
-      "id": "c84e16ef5070ad10a6748c1f0aeb4ce2dce4312b"
-    },
-    {
-      "title": "Taragaon Talks: Documenting Kathmandu – How Digital Communities Look at Heritage",
-      "start": "2026-10-11T16:00:00+05:45",
-      "source_name": "Taragaon Next",
-      "source_url": "https://taragaonnext.com/events/taragaon-talks-documenting-kathmandu-how-digital-communities-look-at-heritage/",
-      "description": null,
-      "end": null,
-      "location": null,
-      "categories": [
-        "Events"
-      ],
-      "image": null,
-      "id": "963ff29e6c33298da2859bb041a431c27b86a93f"
-    },
     {
       "title": "The Ground Beneath The Lines by Resident Artist Amisha Maharjan",
       "start": "2026-10-12T16:00:00+05:45",
@@ -156,6 +128,21 @@
       ],
       "image": null,
       "id": "6007dcfe009a05ddbc8f18e4bdcc5eb67fd20dd6"
+    },
+    {
+      "title": "नयाँ राजनीतिक सन्दर्भमा सरकार, प्रतिपक्ष र नागरिक समाजको भूमिका",
+      "start": "2026-11-17T15:00:00+05:45",
+      "source_name": "Martin Chautari",
+      "source_url": "https://martinchautari.org.np/events/naya-rajnitik-sandarbhama-sarkar-pratipaksh-ra-nagarik-samajko-bhumika",
+      "description": "17 November 2026/१ मङ्सिर २०८३ (मङ्गलबार, दिउँसो ३ बजे)\r\nडेमोक्रेसी डायलग\r\n(डेमोक्रेसी रिसोर्स सेन्टर नेपाल र मार्टिन चौतारीको संयुक्त आयोजना)\r\nनयाँ राजनीतिक सन्दर्भमा सरकार, प्रतिपक्ष र नागरिक समाजको भूमिका\r\nहरि शर्मा, राजनीतिक विश्लेषक",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Discussion",
+        "Mangalbaarey"
+      ],
+      "image": null,
+      "id": "7069a60c10936fcf645560815fb007c7ea0c239f"
     },
     {
       "title": "Writing Circle – A Space for Writing Enthusiasts to Find a Community",
