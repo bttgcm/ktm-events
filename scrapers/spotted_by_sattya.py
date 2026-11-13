@@ -74,7 +74,10 @@ class SpottedBySattyaAdapter(EventSourceAdapter):
         return text[marker_index + len(READER_CONTENT_MARKER):]
 
     def _parse_feed(self, json_bytes: bytes) -> list[Event]:
-        posts = json.loads(json_bytes)
+        parsed = json.loads(json_bytes)
+        # Substack's posts API used to return a bare array; it now wraps
+        # posts in {"posts": [...], "nextCursor": ...}. Accept either.
+        posts = parsed["posts"] if isinstance(parsed, dict) else parsed
         events: list[Event] = []
         for post in posts[:MAX_POSTS]:
             events.extend(self._parse_post(post))
