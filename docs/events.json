@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-11-13T10:19:05.715600+00:00",
+  "generated_at": "2026-11-14T09:38:11.521864+00:00",
   "events": [
-    {
-      "title": "Writing Circle – A Space for Writing Enthusiasts to Find a Community",
-      "start": "2026-10-15T15:00:00+05:45",
-      "source_name": "Taragaon Next",
-      "source_url": "https://taragaonnext.com/events/writing-circle-a-space-for-writing-enthusiasts-to-find-a-community/",
-      "description": null,
-      "end": null,
-      "location": null,
-      "categories": [
-        "Events"
-      ],
-      "image": null,
-      "id": "90b5b61fbd2c18774dde2b0928c73d226e9826e6"
-    },
     {
       "title": "Book Launch: TrulyCentral by Abish Man Shakya",
       "start": "2026-10-15T15:30:00+05:45",
@@ -294,21 +280,6 @@
       ],
       "image": null,
       "id": "86174f7b9be02dbcc10c88e9ff4fa0d52aa57fe0"
-    },
-    {
-      "title": "No Discussions due to Tihar Festival",
-      "start": "2026-11-08T10:00:00+05:45",
-      "source_name": "Martin Chautari",
-      "source_url": "https://martinchautari.org.np/events/no-discussions-due-to-tihar-festival",
-      "description": "8–13 November 2026/२२–२७ कात्तिक २०८३\r\nNo Discussions due to Tihar Festival",
-      "end": "2026-11-13T17:00:00+05:45",
-      "location": null,
-      "categories": [
-        "Discussion",
-        "Research Seminar Series"
-      ],
-      "image": null,
-      "id": "1b68181a27b94ff1f782a247c96749ab5e39576a"
     },
     {
       "title": "13th maitidevi street festival",
