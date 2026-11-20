@@ -1,22 +1,22 @@
 :root {
-  --bg: #f7f5f2;
-  --fg: #201d1a;
-  --muted: #6b6560;
+  --bg: #ffffff;
+  --fg: #000000;
+  --muted: #666666;
   --card-bg: #ffffff;
-  --border: #e3ddd5;
-  --accent: #a3352b;
+  --border: #000000;
+  --accent: #000000;
   --accent-fg: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #17140f;
-    --fg: #f1ece4;
-    --muted: #a89d8f;
-    --card-bg: #221e18;
-    --border: #382f24;
-    --accent: #d97a5f;
-    --accent-fg: #17140f;
+    --bg: #000000;
+    --fg: #ffffff;
+    --muted: #999999;
+    --card-bg: #000000;
+    --border: #ffffff;
+    --accent: #ffffff;
+    --accent-fg: #000000;
   }
 }
 
@@ -24,7 +24,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, "Segoe UI", "Noto Sans", "Noto Sans Devanagari", sans-serif;
+  font-family: "Inter", -apple-system, "Segoe UI", "Noto Sans", "Noto Sans Devanagari", sans-serif;
   background: var(--bg);
   color: var(--fg);
 }
@@ -34,8 +34,15 @@ header {
   text-align: center;
 }
 
-h1 { margin: 0 0 0.25rem; font-size: 1.8rem; }
-.subtitle { margin: 0 0 1rem; color: var(--muted); }
+h1 { margin: 0 0 0.25rem; font-size: 1.8rem; font-weight: 600; letter-spacing: -0.02em; }
+
+.subtitle {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+}
 
 .subscribe-line {
   margin: 0 0 1rem;
@@ -58,9 +65,22 @@ h1 { margin: 0 0 0.25rem; font-size: 1.8rem; }
 .subscribe-hint code {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 4px;
+  border-radius: 0;
   padding: 0.05rem 0.4rem;
 }
+
+.suggest-line {
+  margin: 0 0 1rem;
+  font-size: 0.85rem;
+}
+
+.suggest-line a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.suggest-line a:hover { text-decoration: underline; }
 
 .filters {
   display: flex;
@@ -69,13 +89,15 @@ h1 { margin: 0 0 0.25rem; font-size: 1.8rem; }
 }
 
 .filters button {
-  border: 1px solid var(--border);
+  border: 1px solid var(--fg);
   background: var(--card-bg);
   color: var(--fg);
   padding: 0.4rem 1rem;
-  border-radius: 999px;
+  border-radius: 0;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .filters button.active {
@@ -91,43 +113,56 @@ main {
 }
 
 h2.month-heading {
-  font-size: 1.1rem;
-  color: var(--muted);
-  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--fg);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--fg);
   padding-bottom: 0.3rem;
   margin: 2rem 0 1rem;
 }
 
 .event-card {
   background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 10px;
+  border: 1px solid var(--fg);
+  border-radius: 0;
   padding: 1rem 1.25rem;
   margin-bottom: 1rem;
 }
 
 .event-date {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--accent);
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .event-title {
   margin: 0.25rem 0 0.4rem;
   font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .event-title a {
-  color: var(--fg);
+  background-image: linear-gradient(to right, #f2f5cc, #c5efb3, #ffffff);
+  color: #1a1a1a;
   text-decoration: none;
+  padding: 0.05em 0.3em;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .event-title a:hover { text-decoration: underline; }
 
 .event-meta {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--muted);
   margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .event-description {
@@ -144,12 +179,14 @@ h2.month-heading {
 }
 
 .tag {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   background: var(--bg);
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: 0;
   padding: 0.15rem 0.6rem;
   color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .add-to-calendar {
@@ -158,8 +195,10 @@ h2.month-heading {
   background: transparent;
   color: var(--accent);
   padding: 0.35rem 0.9rem;
-  border-radius: 6px;
-  font-size: 0.85rem;
+  border-radius: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   cursor: pointer;
 }
 

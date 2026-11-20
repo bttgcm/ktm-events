@@ -5,10 +5,12 @@ EventSourceAdapter, add it here, then enable it in sources.yaml.
 """
 
 from .base import EventSourceAdapter
+from .kathmandu_institute import KathmanduInstituteAdapter
 from .katajaam import KataJaamAdapter
 from .mandala_theatre import MandalaTheatreAdapter
 from .martin_chautari import MartinChautariAdapter
 from .nepal_art_council import NepalArtCouncilAdapter
+from .sihp import SihpAdapter
 from .spotted_by_sattya import SpottedBySattyaAdapter
 from .taragaon_next import TaragaonNextAdapter
 
@@ -19,4 +21,6 @@ ADAPTERS: dict[str, type[EventSourceAdapter]] = {
     "katajaam": KataJaamAdapter,
     "nepal_art_council": NepalArtCouncilAdapter,
     "spotted_by_sattya": SpottedBySattyaAdapter,
+    "sihp": SihpAdapter,
+    "kathmandu_institute": KathmanduInstituteAdapter,
 }

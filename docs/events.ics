@@ -4,53 +4,8 @@ PRODID:-//Kathmandu Cultural Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Kathmandu Cultural Events
 BEGIN:VEVENT
-UID:90b5b61fbd2c18774dde2b0928c73d226e9826e6@ktm-events
-DTSTAMP:20261113T034939Z
-DTSTART:20261015T091500Z
-DTEND:20261015T101500Z
-SUMMARY:Writing Circle – A Space for Writing Enthusiasts to Find a Community
-DESCRIPTION:https://taragaonnext.com/events/writing-circle-a-space-for-writing-enthusiasts-to-find-a-community/
-URL:https://taragaonnext.com/events/writing-circle-a-space-for-writing-enthusiasts-to-find-a-community/
-END:VEVENT
-BEGIN:VEVENT
-UID:bca43837105d33b20181ab2d33a434358e822263@ktm-events
-DTSTAMP:20261113T034939Z
-DTSTART:20261015T094500Z
-DTEND:20261015T104500Z
-SUMMARY:Book Launch: TrulyCentral by Abish Man Shakya
-DESCRIPTION:https://taragaonnext.com/events/book-launch-truly-central-by-abish-man-shakya/
-URL:https://taragaonnext.com/events/book-launch-truly-central-by-abish-man-shakya/
-END:VEVENT
-BEGIN:VEVENT
-UID:7a458db09f5f7f594b15aeac03e1e6bb78a97261@ktm-events
-DTSTAMP:20261113T034939Z
-DTSTART:20261015T094500Z
-DTEND:20261015T104500Z
-SUMMARY:trulycentral book release
-DESCRIPTION:abish man shakya launches his debut essay anthology\, bringing together personal stories\, reflections\, and fiction\, followed by a book chat with nirdishtha raj sapkota.\nhttps://spottedbysattya.substack.com/p/october-9-october-15#2026-10-15-0
-URL:https://spottedbysattya.substack.com/p/october-9-october-15#2026-10-15-0
-END:VEVENT
-BEGIN:VEVENT
-UID:4f3ca4a1455cf0d67a7c2b2f66f259b72b8ec5ff@ktm-events
-DTSTAMP:20261113T034939Z
-DTSTART:20261016T071500Z
-DTEND:20261016T081500Z
-SUMMARY:bihani sathi ko sathi
-DESCRIPTION:a relaxed dashain potluck with shared food\, warm drinks\, and time to connect with others on a self-help journey. bring a dish to share\, and a friend if you’d like.\nhttps://spottedbysattya.substack.com/p/october-16-october-22#2026-10-16-0
-URL:https://spottedbysattya.substack.com/p/october-16-october-22#2026-10-16-0
-END:VEVENT
-BEGIN:VEVENT
-UID:395af66fbe11ac3e5c711fc0979efe29302310a6@ktm-events
-DTSTAMP:20261113T034939Z
-DTSTART:20261017T071500Z
-DTEND:20261017T081500Z
-SUMMARY:kipu mohani nakha fest 2083
-DESCRIPTION:celebrate fulpati\, the seventh day of dashain in kirtipur with traditional newa music\, contemporary live performances\, and a lively community gathering.\nhttps://spottedbysattya.substack.com/p/october-16-october-22#2026-10-17-0
-URL:https://spottedbysattya.substack.com/p/october-16-october-22#2026-10-17-0
-END:VEVENT
-BEGIN:VEVENT
 UID:70033853fcc03858736a571c1c11c21728301dfe@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261023T131500Z
 DTEND:20261023T141500Z
 SUMMARY:shades of sound ft. orthodox
@@ -59,7 +14,7 @@ URL:https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-23-0
 END:VEVENT
 BEGIN:VEVENT
 UID:a0078b4d5718ba7739cedb6f6ca70f7e56db02fe@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261024T051500Z
 DTEND:20261024T061500Z
 SUMMARY:tahaja hills sketch meet
@@ -68,7 +23,7 @@ URL:https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-24-0
 END:VEVENT
 BEGIN:VEVENT
 UID:d543385154a4c0a329786bedb003de7de470bd06@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261025T001500Z
 DTEND:20261025T011500Z
 SUMMARY:kathmandu heritage run
@@ -77,7 +32,7 @@ URL:https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-25-0
 END:VEVENT
 BEGIN:VEVENT
 UID:412a10f1450623065ebe074ac4e0b72c0ee2b450@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261027T181500Z
 DTEND:20261106T181500Z
 SUMMARY:Bhag Bheda Bhag
@@ -86,7 +41,7 @@ URL:https://www.mandalatheatre.com/events/bhag-bheda-bhag/
 END:VEVENT
 BEGIN:VEVENT
 UID:b01ea4dede102b248a93e852be271509e9ef6ce7@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261028T011500Z
 DTEND:20261028T021500Z
 SUMMARY:nepa-quest 10k run 2026
@@ -95,7 +50,7 @@ URL:https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-28-0
 END:VEVENT
 BEGIN:VEVENT
 UID:d7cb3d3da1176b769db65fb579099edbbc7814db@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261029T021500Z
 DTEND:20261029T031500Z
 SUMMARY:hike for a change
@@ -104,7 +59,7 @@ URL:https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-29-0
 END:VEVENT
 BEGIN:VEVENT
 UID:5173e526f4690684161f78bca7ddfa12b12924c5@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261030T114500Z
 DTEND:20261030T124500Z
 SUMMARY:Film Screening + Q&A with the Filmmakers | Newar Buddhism in Nepal: The Baha Bahis
@@ -113,7 +68,7 @@ URL:https://taragaonnext.com/events/film-screening-qa-with-the-filmmakers-newar-
 END:VEVENT
 BEGIN:VEVENT
 UID:99ab6a4d029a72f3698b952e2a78f3c03d4d20dd@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261030T114500Z
 DTEND:20261030T124500Z
 SUMMARY:newar buddhism in nepal: the baha bahis
@@ -122,7 +77,7 @@ URL:https://spottedbysattya.substack.com/p/october-30-november-5#2026-10-30-0
 END:VEVENT
 BEGIN:VEVENT
 UID:e07016b46e8a3be3f7414ec48308aedf9057706a@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261031T071500Z
 DTEND:20261031T081500Z
 SUMMARY:what’s on your plate?
@@ -131,7 +86,7 @@ URL:https://spottedbysattya.substack.com/p/october-30-november-5#2026-10-31-0
 END:VEVENT
 BEGIN:VEVENT
 UID:4858c3705a2f1bfba5889076f5b2b6f9377d252e@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261103T121500Z
 DTEND:20261103T131500Z
 SUMMARY:what remains unseen
@@ -140,7 +95,7 @@ URL:https://spottedbysattya.substack.com/p/october-30-november-5#2026-11-03-0
 END:VEVENT
 BEGIN:VEVENT
 UID:b8ffe1a2a8ee493c3a8ee87815d2e9aec7d4876f@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261104T134500Z
 DTEND:20261104T144500Z
 SUMMARY:Solar Cyborg by Amble Skuse\, in conversation with Nirvik Maskey
@@ -149,7 +104,7 @@ URL:https://taragaonnext.com/events/solar-cyborg-by-amble-skuse-in-conversation-
 END:VEVENT
 BEGIN:VEVENT
 UID:285040114970695d5f77042265dcc83969d3f610@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261104T134500Z
 DTEND:20261104T144500Z
 SUMMARY:solar cyborg: amble skuse in conversation with nirvik maskey
@@ -158,7 +113,7 @@ URL:https://spottedbysattya.substack.com/p/october-30-november-5#2026-11-04-0
 END:VEVENT
 BEGIN:VEVENT
 UID:74d06dc28cb5b2b3b2bb99f1f24b20a523da54ed@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261106T051500Z
 DTEND:20261106T061500Z
 SUMMARY:tihar mela
@@ -167,7 +122,7 @@ URL:https://spottedbysattya.substack.com/p/november-6-november-12#2026-11-06-0
 END:VEVENT
 BEGIN:VEVENT
 UID:3bd7530f3c0ac49c4f441f8afcf773cfb7920e40@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261106T101500Z
 DTEND:20261106T111500Z
 SUMMARY:Deusi Bhailo Fundraiser by Maitrī Music Therapy Nepal
@@ -176,7 +131,7 @@ URL:https://taragaonnext.com/events/deusi-bhailo-fundraiser-by-maitri-music-ther
 END:VEVENT
 BEGIN:VEVENT
 UID:9d24154538cb213e8818b83fd21b382d002402a7@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261107T003000Z
 DTEND:20261107T013000Z
 SUMMARY:पही run
@@ -185,7 +140,7 @@ URL:https://spottedbysattya.substack.com/p/november-6-november-12#2026-11-07-0
 END:VEVENT
 BEGIN:VEVENT
 UID:86174f7b9be02dbcc10c88e9ff4fa0d52aa57fe0@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261108T004500Z
 DTEND:20261108T014500Z
 SUMMARY:lalitpur metropolis-wide running competition
@@ -193,17 +148,8 @@ DESCRIPTION:lace up and join runners from across lalitpur for a city-wide race\,
 URL:https://spottedbysattya.substack.com/p/november-6-november-12#2026-11-08-0
 END:VEVENT
 BEGIN:VEVENT
-UID:1b68181a27b94ff1f782a247c96749ab5e39576a@ktm-events
-DTSTAMP:20261113T034939Z
-DTSTART:20261108T041500Z
-DTEND:20261113T111500Z
-SUMMARY:No Discussions due to Tihar Festival
-DESCRIPTION:8–13 November 2026/२२–२७ कात्तिक २०८३\nNo Discussions due to Tihar Festival\nhttps://martinchautari.org.np/events/no-discussions-due-to-tihar-festival
-URL:https://martinchautari.org.np/events/no-discussions-due-to-tihar-festival
-END:VEVENT
-BEGIN:VEVENT
 UID:58b3677e0d277c2982b245207b8eec4d14765793@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261110T091500Z
 DTEND:20261110T101500Z
 SUMMARY:13th maitidevi street festival
@@ -212,7 +158,7 @@ URL:https://spottedbysattya.substack.com/p/november-6-november-12#2026-11-10-0
 END:VEVENT
 BEGIN:VEVENT
 UID:f3059d0ad49966fbebce69e21338724cd2ff8337@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261113T111500Z
 DTEND:20261113T121500Z
 SUMMARY:conversation with srijan thapa and prawin adhikari
@@ -221,7 +167,7 @@ URL:https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-13-0
 END:VEVENT
 BEGIN:VEVENT
 UID:87bc9b04dc86f7e6d64f05811386e2812cc85c87@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261114T014500Z
 DTEND:20261114T024500Z
 SUMMARY:astra temple quest 2083
@@ -230,7 +176,7 @@ URL:https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-14-0
 END:VEVENT
 BEGIN:VEVENT
 UID:d73c4527033c720d98bcd26e4fec5337d01ee786@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261115T041500Z
 DTEND:20261115T051500Z
 SUMMARY:abhyāsa: tradition in the making
@@ -238,26 +184,8 @@ DESCRIPTION:explore paubha paintings created by artists from the drawing room’
 URL:https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-15-0
 END:VEVENT
 BEGIN:VEVENT
-UID:6007dcfe009a05ddbc8f18e4bdcc5eb67fd20dd6@ktm-events
-DTSTAMP:20261113T034939Z
-DTSTART:20261115T091500Z
-DTEND:20261115T101500Z
-SUMMARY:Reflexive Digital Ethnography of Nepali Digital Queer Culture Guided by Indigenous Research Methodologies
-DESCRIPTION:15 November 2026/२९ कात्तिक २०८३ (आइतबार\, दिउँसो ३ बजे)\nResearch Seminar Series\nReflexive Digital Ethnography of Nepali Digital Queer Culture Guided by Indigenous Research Methodologies\nShubha Kayastha\, PhD Researcher\, RMIT (Royal Melbourne Institute of Technology)\, Australia\n\nAbstract\nThis presentation examines methodological and ethical issues in researching the online expression of young Nepali sexual and gender diverse (SGD) people and communities. It is based on the researcher&#039\;s experiences—including\, but not limited to\, adopting\, applying and eventually abandoning of digital content analysis as a data collection tool—for her doctoral research\, while she is guided by her research participants. The presentation provides a reflexive account of the researcher’s privileges and limitations as an ‘insider-within’ researcher. It considers how the researcher negotiates the requirements and practices in Western academic institutions to avoid and resist deficit framing using Indigenous research methodologies. Through the reflexivity it was found that researchers are accountable in applying ethics of reciprocity and avoid reinforcing a colonial extractive practice while researching marginalised groups.\n\nAbout the Speaker\nShubha Kayastha is a feminist activist who works in the intersection of gender\, sexuality and technology. She is currently a PhD researcher at RMIT (Royal Melbourne Institute of Technology)\, studying the navigation of privacy and visibility by young Nepali sexual and gender diverse people in digital spaces. Shubha was the co-founder and former executive director of a digital rights organization\, Body &amp\;amp\; Data.\nhttps://martinchautari.org.np/events/reflexive-digital-ethnography-of-nepali-digital-queer-culture-guided-by-indigenous-research-methodologies
-URL:https://martinchautari.org.np/events/reflexive-digital-ethnography-of-nepali-digital-queer-culture-guided-by-indigenous-research-methodologies
-END:VEVENT
-BEGIN:VEVENT
-UID:7069a60c10936fcf645560815fb007c7ea0c239f@ktm-events
-DTSTAMP:20261113T034939Z
-DTSTART:20261117T091500Z
-DTEND:20261117T101500Z
-SUMMARY:नयाँ राजनीतिक सन्दर्भमा सरकार\, प्रतिपक्ष र नागरिक समाजको भूमिका
-DESCRIPTION:17 November 2026/१ मङ्सिर २०८३ (मङ्गलबार\, दिउँसो ३ बजे)\nडेमोक्रेसी डायलग\n(डेमोक्रेसी रिसोर्स सेन्टर नेपाल र मार्टिन चौतारीको संयुक्त आयोजना)\nनयाँ राजनीतिक सन्दर्भमा सरकार\, प्रतिपक्ष र नागरिक समाजको भूमिका\nहरि शर्मा\, राजनीतिक विश्लेषक\nhttps://martinchautari.org.np/events/naya-rajnitik-sandarbhama-sarkar-pratipaksh-ra-nagarik-samajko-bhumika
-URL:https://martinchautari.org.np/events/naya-rajnitik-sandarbhama-sarkar-pratipaksh-ra-nagarik-samajko-bhumika
-END:VEVENT
-BEGIN:VEVENT
 UID:c16e50b01e40251aaaa122afbd3faceb0ca0fca6@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261118T071500Z
 DTEND:20261118T081500Z
 SUMMARY:astitwa
@@ -266,7 +194,7 @@ URL:https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-18-0
 END:VEVENT
 BEGIN:VEVENT
 UID:bd9502238e647ba9b38676e643f7ad0437b0a723@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261119T091500Z
 DTEND:20261119T101500Z
 SUMMARY:Writing Circle – A Space for Writing Enthusiasts to Find a Community
@@ -275,7 +203,7 @@ URL:https://taragaonnext.com/events/5471/
 END:VEVENT
 BEGIN:VEVENT
 UID:ff8e783b0cd78014052db228b220d98993d2d035@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261119T091500Z
 DTEND:20261119T101500Z
 SUMMARY:writing circle at taragaon next
@@ -283,8 +211,35 @@ DESCRIPTION:bring your ideas and spend an afternoon writing alongside others\, s
 URL:https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-19-0
 END:VEVENT
 BEGIN:VEVENT
+UID:10093adc6be1dad54a50a2bc4294d6a747604bc5@ktm-events
+DTSTAMP:20261120T094259Z
+DTSTART:20261120T051500Z
+DTEND:20261120T061500Z
+SUMMARY:the confluence
+DESCRIPTION:explore fine\, folk\, and traditional art through works by six artists\, bringing together diverse creative expressions and perspectives on nepal’s cultural heritage.\nhttps://spottedbysattya.substack.com/p/november-20-november-26#2026-11-20-0
+URL:https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-20-0
+END:VEVENT
+BEGIN:VEVENT
+UID:fa65fdf025c786b77fe8435577216cd14b64153b@ktm-events
+DTSTAMP:20261120T094259Z
+DTSTART:20261121T001500Z
+DTEND:20261121T011500Z
+SUMMARY:baddies run 2026
+DESCRIPTION:kick off your morning with a 5 km women’s run celebrating fitness\, confidence\, and community. connect with fellow runners\, enjoy the morning outdoors\, and earn a finisher medal.\nhttps://spottedbysattya.substack.com/p/november-20-november-26#2026-11-21-0
+URL:https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-21-0
+END:VEVENT
+BEGIN:VEVENT
+UID:7d140e253f625601f3e0af2a39ecf1489f45cda8@ktm-events
+DTSTAMP:20261120T094259Z
+DTSTART:20261121T234500Z
+DTEND:20261122T004500Z
+SUMMARY:pacelab volume 01.12
+DESCRIPTION:kickstart your sunday with a free 5 km community run\, meet fellow runners\, and enjoy a morning of movement and connection. open to everyone\, with no participant limit.\nhttps://spottedbysattya.substack.com/p/november-20-november-26#2026-11-22-0
+URL:https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-22-0
+END:VEVENT
+BEGIN:VEVENT
 UID:2f17162e03d5c5d42182b8d04536390e002c1d29@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261122T091500Z
 DTEND:20261122T101500Z
 SUMMARY:फेरिँदो नेपाली भात-भान्सा
@@ -292,17 +247,62 @@ DESCRIPTION:22 November 2026/६ मङ्सिर २०८३ (आइतब�
 URL:https://martinchautari.org.np/events/Changing-Nepali-cuisine
 END:VEVENT
 BEGIN:VEVENT
+UID:bf2a16706a35eaae7b5c421ad189a61850da8e28@ktm-events
+DTSTAMP:20261120T094259Z
+DTSTART:20261124T051500Z
+DTEND:20261124T061500Z
+SUMMARY:kangchenjunga through the lens
+DESCRIPTION:explore over a century of photographs capturing the landscapes\, biodiversity\, cultures\, and communities of the kangchenjunga region\, from historic images to works by contemporary nepali photographers. on view until november 30.\nhttps://spottedbysattya.substack.com/p/november-20-november-26#2026-11-24-0
+URL:https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-24-0
+END:VEVENT
+BEGIN:VEVENT
+UID:71c94bf9057528a3aa593447586413007f95c921@ktm-events
+DTSTAMP:20261120T094259Z
+DTSTART:20261124T091500Z
+DTEND:20261124T101500Z
+SUMMARY:No Discussion due to the Chautari Annual Conference - 2026
+DESCRIPTION:&amp\;nbsp\;\n\n24 November 2026/८ मङ्सिर २०८३ (मङ्गलबार\, दिउँसो ३ बजे)\n\nऊर्जा नीति संवाद – ३२\n(ऊर्जा खबर र मार्टिन चौतारीको संयुक्त आयोजना)\n\nNo Discussion due to the Chautari Annual Conference - 2026\nhttps://martinchautari.org.np/events/no-discussion-due-to-the-chautari-annual-conference-2026
+URL:https://martinchautari.org.np/events/no-discussion-due-to-the-chautari-annual-conference-2026
+END:VEVENT
+BEGIN:VEVENT
 UID:6d457de5bfb41e11acb5830e27d3633c8e7b9834@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261125T031500Z
 DTEND:20261127T111500Z
 SUMMARY:Chautari Annual Conference – 2026
-DESCRIPTION:चौतारी वार्षिक सम्मेलन - २०२६ का लागि स्वयंसेवक आवश्यकता सम्बन्धी सूचना\n\nRegistration Open for Chautari Annual Conference – 2026\n\nList of Selected Abstracts\n\nCall for Papers/Panels\nChautari Annual Conference – 2026\n&amp\;nbsp\;\n\nMartin Chautari (MC) is organizing the Chautari Annual Conference in Kathmandu\, Nepal on&amp\;nbsp\;November 25–27\, 2026. The aim of this conference is to promote research culture in the humanities and social sciences in Nepal. MC invites submission of abstracts of research papers or abstracts of theme-based panels from eligible researchers who will have completed their research by the abstract submission deadline. Interested researchers should fill this&amp\;nbsp\;google form.\n\n\nPreferences\n\n\n	The theme of the research should be related to Nepal\; comparative work is also welcome provided that Nepal-related content is substantial.\n	Young/women researchers are highly encouraged to submit the abstracts.\n	&amp\;nbsp\;\n\n\nAbstract guidelines\n\n\n	Abstracts can be in English or Nepali and should be between 400 and 500 words in length. The title of the proposed paper\, a short description of the research base\, and the paper’s main arguments/findings must be clearly stated.\n	Abstracts for panels should consist of its title and a brief description\, and the abstracts of each paper in the panel should also be included. There can be a maximum of four papers in a panel.\n	Researchers can send abstracts of up to two papers as long as they are written by multiple-author teams and two separate individuals plan to present them at the conference. At the time of submission\, please indicate the names of the (separate) persons who will be presenting each of the two papers.\n	&amp\;nbsp\;\n\n\nPlease note\n\n\n	This is an in-person only conference. All participants\, including paper presenters and panelists\, are required to register to attend the conference. The registration fee is NRs. 1000/- per person.\n	Participants are expected to make their own arrangements for travel and accommodation.\n\n\nImportant dates\n\nCall for abstracts: February&amp\;nbsp\;18\, 2026\nAbstract submission extended deadline:&amp\;nbsp\;June 15\, 2026&amp\;nbsp\;\nAnnouncement of accepted abstracts: June 30\, 2026\nExtended deadline for the submission of full papers (length 4000–5000 words):&amp\;nbsp\;October 30\, 2026\nAnnouncement of accepted papers:&amp\;nbsp\;November 6\, 2026\nConference days:&amp\;nbsp\;November 25–27\, 2026\n\n\nQueries should be sent to\nconference@martinchautari.org.np&amp\;nbsp\;and&amp\;nbsp\;mcannualconf@gmail.com&amp\;nbsp\;\n\nFurther information can be obtained from\nConference Organizing Committee\n\nMartin Chautari\n27 Jeet Jung Marg\, Thapathali\, Kathmandu\, Nepal\nPhone: (+977 1) 5338050/4102027/4102243\nUrl:&amp\;nbsp\;www.martinchautari.org.np\n\n&amp\;nbsp\;\nhttps://martinchautari.org.np/events/chautari-annual-conference-2026
+DESCRIPTION:Program Schedule\n\nचौतारी वार्षिक सम्मेलन - २०२६ का लागि स्वयंसेवक आवश्यकता सम्बन्धी सूचना\n\nRegistration Open for Chautari Annual Conference – 2026\n\nList of Selected Abstracts\n\nCall for Papers/Panels\nChautari Annual Conference – 2026\n&amp\;nbsp\;\n\nMartin Chautari (MC) is organizing the Chautari Annual Conference in Kathmandu\, Nepal on&amp\;nbsp\;November 25–27\, 2026. The aim of this conference is to promote research culture in the humanities and social sciences in Nepal. MC invites submission of abstracts of research papers or abstracts of theme-based panels from eligible researchers who will have completed their research by the abstract submission deadline. Interested researchers should fill this&amp\;nbsp\;google form.\n\n\nPreferences\n\n\n	The theme of the research should be related to Nepal\; comparative work is also welcome provided that Nepal-related content is substantial.\n	Young/women researchers are highly encouraged to submit the abstracts.\n	&amp\;nbsp\;\n\n\nAbstract guidelines\n\n\n	Abstracts can be in English or Nepali and should be between 400 and 500 words in length. The title of the proposed paper\, a short description of the research base\, and the paper’s main arguments/findings must be clearly stated.\n	Abstracts for panels should consist of its title and a brief description\, and the abstracts of each paper in the panel should also be included. There can be a maximum of four papers in a panel.\n	Researchers can send abstracts of up to two papers as long as they are written by multiple-author teams and two separate individuals plan to present them at the conference. At the time of submission\, please indicate the names of the (separate) persons who will be presenting each of the two papers.\n	&amp\;nbsp\;\n\n\nPlease note\n\n\n	This is an in-person only conference. All participants\, including paper presenters and panelists\, are required to register to attend the conference. The registration fee is NRs. 1000/- per person.\n	Participants are expected to make their own arrangements for travel and accommodation.\n\n\nImportant dates\n\nCall for abstracts: February&amp\;nbsp\;18\, 2026\nAbstract submission extended deadline:&amp\;nbsp\;June 15\, 2026&amp\;nbsp\;\nAnnouncement of accepted abstracts: June 30\, 2026\nExtended deadline for the submission of full papers (length 4000–5000 words):&amp\;nbsp\;October 30\, 2026\nAnnouncement of accepted papers:&amp\;nbsp\;November 6\, 2026\nConference days:&amp\;nbsp\;November 25–27\, 2026\n\n\nQueries should be sent to\nconference@martinchautari.org.np&amp\;nbsp\;and&amp\;nbsp\;mcannualconf@gmail.com&amp\;nbsp\;\n\nFurther information can be obtained from\nConference Organizing Committee\n\nMartin Chautari\n27 Jeet Jung Marg\, Thapathali\, Kathmandu\, Nepal\nPhone: (+977 1) 5338050/4102027/4102243\nUrl:&amp\;nbsp\;www.martinchautari.org.np\n\n&amp\;nbsp\;\nhttps://martinchautari.org.np/events/chautari-annual-conference-2026
 URL:https://martinchautari.org.np/events/chautari-annual-conference-2026
 END:VEVENT
 BEGIN:VEVENT
+UID:6b5bb79a9aecd18fde7f7a3cc4820367f6e5fd31@ktm-events
+DTSTAMP:20261120T094259Z
+DTSTART:20261125T081500Z
+DTEND:20261125T091500Z
+SUMMARY:tintin in nepal
+DESCRIPTION:explore paintings\, sculptures\, and installations by bhutanese artist pema “tintin” tshering\, reflecting on existence\, spirituality\, and the connections between himalayan philosophy and contemporary life. meet the artist at 5pm.\nhttps://spottedbysattya.substack.com/p/november-20-november-26#2026-11-25-0
+URL:https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-25-0
+END:VEVENT
+BEGIN:VEVENT
+UID:837176c6d170c1e913ea05e4c99d163f1c09d2c2@ktm-events
+DTSTAMP:20261120T094259Z
+DTSTART:20261126T181500Z
+DTEND:20261212T181500Z
+SUMMARY:निलो सिन्दुर
+DESCRIPTION:https://www.mandalatheatre.com/events/%e0%a4%a8%e0%a4%bf%e0%a4%b2%e0%a5%8b-%e0%a4%b8%e0%a4%bf%e0%a4%a8%e0%a5%8d%e0%a4%a6%e0%a5%81%e0%a4%b0/
+URL:https://www.mandalatheatre.com/events/%e0%a4%a8%e0%a4%bf%e0%a4%b2%e0%a5%8b-%e0%a4%b8%e0%a4%bf%e0%a4%a8%e0%a5%8d%e0%a4%a6%e0%a5%81%e0%a4%b0/
+END:VEVENT
+BEGIN:VEVENT
+UID:cb87e3da23aff417b36303b73428e3ec221fdd36@ktm-events
+DTSTAMP:20261120T094259Z
+DTSTART:20261127T091500Z
+DTEND:20261127T101500Z
+SUMMARY:What Has Become Available Recently (Past 15-25 Years) in Various Old and New Archives That Will Enable Us to Write New Histories of Modern South Asia?
+DESCRIPTION:27 November 2026/११ मङ्सिर २०८३ (शुक्रबार\, दिउँसो ४ बजे)\nOpen Panel: Public Session\n\nWhat Has Become Available Recently (Past 15-25 Years) in Various Old and New Archives That Will Enable Us to Write New Histories of Modern South Asia?\n&amp\;nbsp\;\nPanelists:\nProjit Bihari Mukharji\, Dean and Professor\, TCG-CREST\, Kolkata and Professor in History\, Ashoka University\, India\nAjapa Sharma\, Historian\, Martin Chautari\nGaurav C. Garg\, Assistant Professor in History\, Ashoka University\, India\n\n\nModerator:\nPratyoush Onta\, Historian\, Martin Chautari\n\n&amp\;nbsp\;\n\nThis is a public event and participation is open to all.\nhttps://martinchautari.org.np/events/what-has-become-available-recently-past-15-25-years-in-various-old-and-new-archives-that-will-enable-us-to-write-new-histories-of-modern-south-asia
+URL:https://martinchautari.org.np/events/what-has-become-available-recently-past-15-25-years-in-various-old-and-new-archives-that-will-enable-us-to-write-new-histories-of-modern-south-asia
+END:VEVENT
+BEGIN:VEVENT
 UID:b07b975351cda9637e94fdd535a95db18b802058@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261127T111500Z
 DTEND:20261127T121500Z
 SUMMARY:Free Film Screening: Himalayan Dreams: Tales of Lhasa Newar Traders + Q&A with the Filmmakers
@@ -311,11 +311,20 @@ URL:https://taragaonnext.com/events/free-film-screening-himalayan-dreams-tales-o
 END:VEVENT
 BEGIN:VEVENT
 UID:3c789b22af893d15028d8e0e696660a219851115@ktm-events
-DTSTAMP:20261113T034939Z
+DTSTAMP:20261120T094259Z
 DTSTART:20261129T041500Z
 DTEND:20261129T051500Z
 SUMMARY:Doodling at Taragaon
 DESCRIPTION:https://taragaonnext.com/events/doodling-at-taragaon-4/
 URL:https://taragaonnext.com/events/doodling-at-taragaon-4/
+END:VEVENT
+BEGIN:VEVENT
+UID:3a1115e4fbde1b6fa1998cc4192f0c322c68e6fa@ktm-events
+DTSTAMP:20261120T094259Z
+DTSTART:20261129T091500Z
+DTEND:20261129T101500Z
+SUMMARY:There is no seminar scheduled
+DESCRIPTION:29 November 2026/१३ मङ्सिर २०८३ (आइतबार\, दिउँसो ३ बजे)\n\nThere is no seminar scheduled\nhttps://martinchautari.org.np/events/there-is-no-seminar-scheduled
+URL:https://martinchautari.org.np/events/there-is-no-seminar-scheduled
 END:VEVENT
 END:VCALENDAR

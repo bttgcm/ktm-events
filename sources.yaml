@@ -17,3 +17,7 @@ sources:
     enabled: true
   - name: spotted_by_sattya
     enabled: true
+  - name: sihp
+    enabled: true
+  - name: kathmandu_institute
+    enabled: true

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T10:54:23.268608+00:00",
+  "generated_at": "2026-11-20T09:42:59.156375+00:00",
   "events": [
     {
       "title": "shades of sound ft. orthodox",
@@ -324,6 +324,48 @@
       "id": "ff8e783b0cd78014052db228b220d98993d2d035"
     },
     {
+      "title": "the confluence",
+      "start": "2026-11-20T11:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-20-0",
+      "description": "explore fine, folk, and traditional art through works by six artists, bringing together diverse creative expressions and perspectives on nepal’s cultural heritage.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "10093adc6be1dad54a50a2bc4294d6a747604bc5"
+    },
+    {
+      "title": "baddies run 2026",
+      "start": "2026-11-21T06:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-21-0",
+      "description": "kick off your morning with a 5 km women’s run celebrating fitness, confidence, and community. connect with fellow runners, enjoy the morning outdoors, and earn a finisher medal.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "fa65fdf025c786b77fe8435577216cd14b64153b"
+    },
+    {
+      "title": "pacelab volume 01.12",
+      "start": "2026-11-22T05:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-22-0",
+      "description": "kickstart your sunday with a free 5 km community run, meet fellow runners, and enjoy a morning of movement and connection. open to everyone, with no participant limit.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "7d140e253f625601f3e0af2a39ecf1489f45cda8"
+    },
+    {
       "title": "फेरिँदो नेपाली भात-भान्सा",
       "start": "2026-11-22T15:00:00+05:45",
       "source_name": "Martin Chautari",
@@ -337,6 +379,20 @@
       ],
       "image": null,
       "id": "2f17162e03d5c5d42182b8d04536390e002c1d29"
+    },
+    {
+      "title": "kangchenjunga through the lens",
+      "start": "2026-11-24T11:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-24-0",
+      "description": "explore over a century of photographs capturing the landscapes, biodiversity, cultures, and communities of the kangchenjunga region, from historic images to works by contemporary nepali photographers. on view until november 30.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "bf2a16706a35eaae7b5c421ad189a61850da8e28"
     },
     {
       "title": "No Discussion due to the Chautari Annual Conference - 2026",
@@ -367,6 +423,20 @@
       ],
       "image": null,
       "id": "6d457de5bfb41e11acb5830e27d3633c8e7b9834"
+    },
+    {
+      "title": "tintin in nepal",
+      "start": "2026-11-25T14:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-25-0",
+      "description": "explore paintings, sculptures, and installations by bhutanese artist pema “tintin” tshering, reflecting on existence, spirituality, and the connections between himalayan philosophy and contemporary life. meet the artist at 5pm.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "6b5bb79a9aecd18fde7f7a3cc4820367f6e5fd31"
     },
     {
       "title": "निलो सिन्दुर",
@@ -424,6 +494,21 @@
       ],
       "image": null,
       "id": "3c789b22af893d15028d8e0e696660a219851115"
+    },
+    {
+      "title": "There is no seminar scheduled",
+      "start": "2026-11-29T15:00:00+05:45",
+      "source_name": "Martin Chautari",
+      "source_url": "https://martinchautari.org.np/events/there-is-no-seminar-scheduled",
+      "description": "29 November 2026/१३ मङ्सिर २०८३ (आइतबार, दिउँसो ३ बजे)\r\n\r\nThere is no seminar scheduled",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Discussion",
+        "Research Seminar Series"
+      ],
+      "image": null,
+      "id": "3a1115e4fbde1b6fa1998cc4192f0c322c68e6fa"
     }
   ]
 }
