@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T10:43:17.475128+00:00",
+  "generated_at": "2026-11-21T02:20:53.268381+00:00",
   "events": [
     {
       "title": "shades of sound ft. orthodox",
@@ -352,6 +352,18 @@
       "id": "fa65fdf025c786b77fe8435577216cd14b64153b"
     },
     {
+      "title": "Banepa Heritage Walk",
+      "start": "2026-11-21T11:00:00+05:45",
+      "source_name": "Kata Jaam",
+      "source_url": "https://katajaam.com/events/w3CDkcHxUuIRJbnLH0vk",
+      "description": null,
+      "end": null,
+      "location": "Banepa",
+      "categories": [],
+      "image": null,
+      "id": "5e0fad1faab3d8b2f16cb5af1c01d64153b4555c"
+    },
+    {
       "title": "pacelab volume 01.12",
       "start": "2026-11-22T05:30:00+05:45",
       "source_name": "Spotted by Sattya",
@@ -379,6 +391,18 @@
       ],
       "image": null,
       "id": "2f17162e03d5c5d42182b8d04536390e002c1d29"
+    },
+    {
+      "title": "Introduction to Śaiva Iconography — Sampada Shikshya EP4",
+      "start": "2026-11-22T16:00:00+05:45",
+      "source_name": "Kata Jaam",
+      "source_url": "https://katajaam.com/events/KGYoA2PP7CpapnF8jwNa",
+      "description": null,
+      "end": null,
+      "location": "Venue TBA",
+      "categories": [],
+      "image": null,
+      "id": "9ef53067375d34803a58a15ef00408bd75ee713c"
     },
     {
       "title": "kangchenjunga through the lens",
@@ -509,6 +533,44 @@
       ],
       "image": null,
       "id": "3a1115e4fbde1b6fa1998cc4192f0c322c68e6fa"
+    },
+    {
+      "title": "Kirtipur Street Fest 2083 at Nagaun Dobato",
+      "start": "2026-12-04T00:00:00+05:45",
+      "source_name": "Kata Jaam",
+      "source_url": "https://katajaam.com/events/TKjmZn6JFYpDBq5ebTN9",
+      "description": null,
+      "end": null,
+      "location": "Nagaun Dobato",
+      "categories": [],
+      "image": null,
+      "id": "90cc40821a7a5c9a505d4d0a16d6a122871d6b70"
+    },
+    {
+      "title": "Naurangi Danphe)",
+      "start": "2026-12-11T00:00:00+05:45",
+      "source_name": "Mandala Theatre",
+      "source_url": "https://www.mandalatheatre.com/events/naurangi-danphe/",
+      "description": null,
+      "end": "2026-12-13T00:00:00+05:45",
+      "location": null,
+      "categories": [
+        "Theatre"
+      ],
+      "image": null,
+      "id": "d6ad1e297918d6663aa8cf01b873824e38774d31"
+    },
+    {
+      "title": "HunterHood",
+      "start": "2026-12-12T14:00:00+05:45",
+      "source_name": "Kata Jaam",
+      "source_url": "https://katajaam.com/events/khalti_ET26FYHVHNBK",
+      "description": null,
+      "end": null,
+      "location": "Bhrikuti Mandap",
+      "categories": [],
+      "image": null,
+      "id": "cea627510f4cc114e4d3ae8e6024020be2ceb5ff"
     }
   ]
 }

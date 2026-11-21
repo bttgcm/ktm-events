@@ -1,8 +1,16 @@
 # soscbaha.org is intentionally left out: it sits behind a Cloudflare
-# bot-challenge page, so a plain HTTP request never reaches real content.
-# Scraping it would require a full headless browser (e.g. Playwright),
-# which is a bigger dependency/maintenance tradeoff than this project
-# currently takes on - revisit if that becomes worth it.
+# bot-challenge page on every path (homepage, /category/announcement/,
+# robots.txt, wp-json), so a plain HTTP request never reaches real
+# content. Headless Playwright - plain and with the playwright-stealth
+# plugin - was also tried and just gets stuck on the challenge page
+# indefinitely, so this isn't a "needs a bigger dependency" problem,
+# it's active bot detection that a basic headless browser doesn't get
+# past either. Their Linktree (linktr.ee/soscbaha) is reachable and has
+# real titles+links, but every link points back to a blocked
+# soscbaha.org page and the Linktree page itself has no date data, so
+# it can't produce usable events. Revisit only if a paid Cloudflare-
+# bypass service becomes worth the ongoing cost, or Social Science Baha
+# starts posting events somewhere else too.
 
 sources:
   - name: martin_chautari

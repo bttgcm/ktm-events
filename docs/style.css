@@ -6,6 +6,7 @@
   --border: #000000;
   --accent: #000000;
   --accent-fg: #ffffff;
+  --tikka: #c8102e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,13 +26,38 @@
 body {
   margin: 0;
   font-family: "Inter", -apple-system, "Segoe UI", "Noto Sans", "Noto Sans Devanagari", sans-serif;
-  background: var(--bg);
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg, var(--tikka) 0%, #ffffff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 480px;
   color: var(--fg);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    background-image: linear-gradient(180deg, var(--tikka) 0%, #000000 100%);
+  }
 }
 
 header {
   padding: 2rem 1.5rem 1rem;
   text-align: center;
+  color: #ffffff;
+}
+
+header .subtitle,
+header .subscribe-hint {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+header .subscribe-hint code {
+  color: var(--fg);
+}
+
+header .subscribe-line a,
+header .suggest-line a {
+  color: #ffffff;
 }
 
 h1 { margin: 0 0 0.25rem; font-size: 1.8rem; font-weight: 600; letter-spacing: -0.02em; }

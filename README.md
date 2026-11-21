@@ -45,11 +45,13 @@ Tests run against saved HTML/XML fixtures in `tests/fixtures/` and never hit the
 | Martin Chautari | `scrapers/martin_chautari.py` | Clean, machine-readable `<time>` dates. |
 | Taragaon Next | `scrapers/taragaon_next.py` | `/whats-on/` mixes years of history with current events - relies on the 30-day cutoff above. |
 | Mandala Theatre | `scrapers/mandala_theatre.py` | Listing page only gives event URLs; all real fields come from each detail page. |
-| Kata Jaam | `scrapers/katajaam.py` | A general Kathmandu event-discovery app, not a single cultural org - pulls in nightlife/food events too, not just culture. |
+| Kata Jaam | `scrapers/katajaam.py` | A general Kathmandu event-discovery app; scoped to its own `/events/category/cultural` listing to keep nightlife/food events out. |
 | Nepal Art Council | `scrapers/nepal_art_council.py` | Exhibition dates are free-form prose in the post excerpt, not a labeled field - the most likely of the bunch to break if they reword it. |
 | Spotted by Sattya | `scrapers/spotted_by_sattya.py` | A Substack weekly digest, not a per-event listing - parses the RSS feed's body text (day headings + `<strong>` event blocks) rather than a page of event cards. |
+| SIHP | `scrapers/sihp.py` | `/category/news/` is a general news feed, not an events page - only posts with an embedded `Date:` field are kept. |
+| Kathmandu Institute | `scrapers/kathmandu_institute.py` | `/monthly-events/` is mostly a retrospective photo gallery with no links - only months that link to a detail page are followed. |
 
-**soscbaha.org** was evaluated and intentionally left out: it sits behind a Cloudflare bot-challenge page, so a plain HTTP request never reaches real content (see the comment in `sources.yaml`).
+**soscbaha.org** was evaluated and intentionally left out: it sits behind a Cloudflare bot-challenge page on every path (including `/category/announcement/`, `robots.txt`, and its WordPress REST API), so a plain HTTP request never reaches real content. Headless Playwright (plain and with the `playwright-stealth` plugin) was also tried and gets stuck on the challenge page indefinitely - this isn't a timing issue, it's active bot detection. Their Linktree (`linktr.ee/soscbaha`) *is* reachable and lists real event titles with links, but every link points back to a blocked `soscbaha.org` page, and the Linktree page itself carries no date data - so it can't produce usable events either. See the comment in `sources.yaml`.
 
 ## Adding a new source
 
