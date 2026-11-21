@@ -12,6 +12,7 @@ from .martin_chautari import MartinChautariAdapter
 from .nepal_art_council import NepalArtCouncilAdapter
 from .sihp import SihpAdapter
 from .spotted_by_sattya import SpottedBySattyaAdapter
+from .suggested_events import SuggestedEventsAdapter
 from .taragaon_next import TaragaonNextAdapter
 
 ADAPTERS: dict[str, type[EventSourceAdapter]] = {
@@ -23,4 +24,5 @@ ADAPTERS: dict[str, type[EventSourceAdapter]] = {
     "spotted_by_sattya": SpottedBySattyaAdapter,
     "sihp": SihpAdapter,
     "kathmandu_institute": KathmanduInstituteAdapter,
+    "suggested_events": SuggestedEventsAdapter,
 }

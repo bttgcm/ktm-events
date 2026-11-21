@@ -29,3 +29,5 @@ sources:
     enabled: true
   - name: kathmandu_institute
     enabled: true
+  - name: suggested_events
+    enabled: true

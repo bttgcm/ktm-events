@@ -1,0 +1,7 @@
+Timestamp,Event title,Date,Time,location,Link to event page,Event description,Approved
+20/11/2026 16:43:53,a measure of civilisation: the making of Newar Architecture History,23/11/2026,16:00:00,"YalaMal, Patan Dhoka, Kathmandu",https://example.com/newar-architecture,A talk on Newar architectural history.,TRUE
+21/11/2026 08:10:32,a,12/12/2026,12:12:00,Chala mandala,,,FALSE
+21/11/2026 09:00:00,Pending review talk,01/12/2026,18:00:00,Patan Museum,https://example.com/pending,,
+22/11/2026 10:00:00,No link provided talk,05/12/2026,10:00:00,Kathmandu,,,TRUE
+23/11/2026 11:00:00,No time given,06/12/2026,,Durbar Square,,,TRUE
+24/11/2026 12:00:00,Unparseable date,not-a-date,10:00:00,Somewhere,,,TRUE
