@@ -7,6 +7,8 @@
   --accent: #000000;
   --accent-fg: #ffffff;
   --tikka: #c8102e;
+  --weather-header-fg: #ffffff;
+  --weather-header-muted: rgba(255, 255, 255, 0.75);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,7 +29,7 @@ body {
   margin: 0;
   font-family: "Inter", -apple-system, "Segoe UI", "Noto Sans", "Noto Sans Devanagari", sans-serif;
   background-color: #ffffff;
-  background-image: linear-gradient(180deg, var(--tikka) 0%, #ffffff 100%);
+  background-image: linear-gradient(180deg, var(--weather-top, var(--tikka)) 0%, #ffffff 100%);
   background-repeat: no-repeat;
   color: var(--fg);
 }
@@ -35,19 +37,44 @@ body {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #000000;
-    background-image: linear-gradient(180deg, var(--tikka) 0%, #000000 100%);
+    background-image: linear-gradient(180deg, var(--weather-top, var(--tikka)) 0%, #000000 100%);
   }
+}
+
+/* Rain effect: added to the DOM only when weather.json reports rain. */
+.rain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0.3;
+  background-image: repeating-linear-gradient(
+    115deg,
+    transparent 0px,
+    transparent 2px,
+    rgba(255, 255, 255, 0.65) 2px,
+    rgba(255, 255, 255, 0.65) 4px,
+    transparent 4px,
+    transparent 70px
+  );
+  background-size: 100% 140px;
+  animation: rain-fall 0.6s linear infinite;
+}
+
+@keyframes rain-fall {
+  from { background-position: 0 0; }
+  to { background-position: -40px 140px; }
 }
 
 header {
   padding: 2rem 1.5rem 1rem;
   text-align: center;
-  color: #ffffff;
+  color: var(--weather-header-fg);
 }
 
 header .subtitle,
 header .subscribe-hint {
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--weather-header-muted);
 }
 
 header .subscribe-hint code {
@@ -56,7 +83,7 @@ header .subscribe-hint code {
 
 header .subscribe-line a,
 header .suggest-line a {
-  color: #ffffff;
+  color: var(--weather-header-fg);
 }
 
 h1 { margin: 0 0 0.25rem; font-size: 1.8rem; font-weight: 600; letter-spacing: -0.02em; }

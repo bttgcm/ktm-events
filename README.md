@@ -9,6 +9,7 @@ Aggregates cultural events from existing event-listing websites around Kathmandu
 - `docs/` is a static site (`index.html` / `style.css` / `app.js`) that fetches `events.json` and renders it, with Upcoming / Past / All filters and a per-event "Add to Calendar" download.
 - `ics.py` builds `docs/events.ics`, a single iCalendar feed containing every event, for subscribing from a calendar app (see below).
 - `.github/workflows/update-events.yml` runs the pipeline daily and commits the refreshed `docs/events.json` and `docs/events.ics`; GitHub Pages serves `docs/` directly.
+- `weather.py` fetches Kathmandu's current weather once per pipeline run (via Open-Meteo, no API key needed) and writes `docs/weather.json`; `app.js` reads it and sets the page's background gradient color accordingly (sunny → yellow, cloudy → gray, rain → blue-gray plus an animated rain overlay, snow → pale blue), falling back to the default tikka-red gradient if the fetch fails or the file is missing. Since it only updates once a day, it reflects that day's conditions rather than live weather.
 
 ## Subscribing to the calendar feed
 

@@ -14,11 +14,13 @@ import yaml
 from ics import build_calendar
 from scrapers.base import Event
 from scrapers.registry import ADAPTERS
+from weather import fetch_weather
 
 ROOT = Path(__file__).parent
 SOURCES_CONFIG = ROOT / "sources.yaml"
 OUTPUT_PATH = ROOT / "docs" / "events.json"
 ICS_OUTPUT_PATH = ROOT / "docs" / "events.ics"
+WEATHER_OUTPUT_PATH = ROOT / "docs" / "weather.json"
 
 # Some sources (e.g. Taragaon Next's "what's on" page) dump their entire
 # multi-year history in the same markup as current events. Without a
@@ -86,6 +88,17 @@ def write_output(events: list[Event]) -> None:
     logger.info("Wrote calendar feed to %s", ICS_OUTPUT_PATH)
 
 
+def write_weather() -> None:
+    weather = fetch_weather()
+    if weather is None:
+        logger.warning("Weather fetch failed, leaving existing weather.json in place")
+        return
+    WEATHER_OUTPUT_PATH.write_text(
+        json.dumps(weather, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    logger.info("Wrote weather.json: %s", weather)
+
+
 def main() -> None:
     source_names = load_enabled_sources()
     events = collect_events(source_names)
@@ -93,6 +106,7 @@ def main() -> None:
     events = drop_stale_events(events)
     events = sort_by_start(events)
     write_output(events)
+    write_weather()
 
 
 if __name__ == "__main__":

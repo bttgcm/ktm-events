@@ -239,4 +239,34 @@
     .catch(function (err) {
       statusEl.textContent = "Could not load events: " + err.message;
     });
+
+  // Conditions whose gradient top color is light enough that header text
+  // needs to switch from white to black to stay readable (checked against
+  // WCAG contrast ratios - sunny/cloudy/snow are all too light for white text).
+  var LIGHT_TOP_CONDITIONS = { sunny: true, cloudy: true, snow: true };
+
+  // Best-effort: if weather.json is missing or fails to load, the
+  // background gradient just falls back to the default tikka red
+  // defined in CSS - no error state needed for this.
+  fetch("weather.json")
+    .then(function (response) {
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      return response.json();
+    })
+    .then(function (weather) {
+      if (!weather || !weather.gradient_top) return;
+      var root = document.documentElement.style;
+      root.setProperty("--weather-top", weather.gradient_top);
+      if (LIGHT_TOP_CONDITIONS[weather.condition]) {
+        root.setProperty("--weather-header-fg", "#000000");
+        root.setProperty("--weather-header-muted", "rgba(0, 0, 0, 0.65)");
+      }
+      if (weather.condition === "rain") {
+        var overlay = document.createElement("div");
+        overlay.className = "rain-overlay";
+        overlay.setAttribute("aria-hidden", "true");
+        document.body.appendChild(overlay);
+      }
+    })
+    .catch(function () {});
 })();
