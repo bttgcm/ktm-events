@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-11-21T10:26:46.905521+00:00",
+  "generated_at": "2026-11-22T10:30:21.707924+00:00",
   "events": [
+    {
+      "title": "shades of sound ft. orthodox",
+      "start": "2026-10-23T19:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-23-0",
+      "description": "ease into the weekend with a live mix of jazz, funk, and reggae, bringing groove-driven rhythms and good energy to your friday night.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Music"
+      ],
+      "image": null,
+      "id": "70033853fcc03858736a571c1c11c21728301dfe"
+    },
+    {
+      "title": "tahaja hills sketch meet",
+      "start": "2026-10-24T11:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-24-0",
+      "description": "spend the morning sketching outdoors alongside fellow artists, surrounded by the hills of bhaktapur.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "a0078b4d5718ba7739cedb6f6ca70f7e56db02fe"
+    },
+    {
+      "title": "kathmandu heritage run",
+      "start": "2026-10-25T06:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-25-0",
+      "description": "explore the city’s historic neighborhoods on a 10 km community run, open to both regular runners and beginners.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "d543385154a4c0a329786bedb003de7de470bd06"
+    },
     {
       "title": "Bhag Bheda Bhag",
       "start": "2026-10-28T00:00:00+05:45",
@@ -14,6 +56,34 @@
       ],
       "image": null,
       "id": "412a10f1450623065ebe074ac4e0b72c0ee2b450"
+    },
+    {
+      "title": "nepa-quest 10k run 2026",
+      "start": "2026-10-28T07:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-28-0",
+      "description": "join runners of different ages and experience levels, with separate categories for elite, youth, and masters. registration includes an event t-shirt and finisher medal, with prizes for winners.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "b01ea4dede102b248a93e852be271509e9ef6ce7"
+    },
+    {
+      "title": "hike for a change",
+      "start": "2026-10-29T08:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-29-0",
+      "description": "spend a morning outdoors hiking toward tarebhir while giving back to nature through trail clean-up, tree planting, and shared activities. the hike takes around 4–5 hours, including breaks.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "d7cb3d3da1176b769db65fb579099edbbc7814db"
     },
     {
       "title": "Film Screening + Q&A with the Filmmakers | Newar Buddhism in Nepal: The Baha Bahis",
@@ -30,6 +100,48 @@
       "id": "5173e526f4690684161f78bca7ddfa12b12924c5"
     },
     {
+      "title": "newar buddhism in nepal: the baha bahis",
+      "start": "2026-10-30T17:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-30-november-5#2026-10-30-0",
+      "description": "explore the history, rituals, and living traditions of newa buddhist monasteries through a documentary screening, followed by a q&a with the filmmakers.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Film"
+      ],
+      "image": null,
+      "id": "99ab6a4d029a72f3698b952e2a78f3c03d4d20dd"
+    },
+    {
+      "title": "what’s on your plate?",
+      "start": "2026-10-31T13:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-30-november-5#2026-10-31-0",
+      "description": "bring a favorite dish or snack to share with 3–4 people, and spend an afternoon connecting with other women over food, games, stories, and conversation.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Community"
+      ],
+      "image": null,
+      "id": "e07016b46e8a3be3f7414ec48308aedf9057706a"
+    },
+    {
+      "title": "what remains unseen",
+      "start": "2026-11-03T18:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-30-november-5#2026-11-03-0",
+      "description": "a new exhibition presented by dot line space art foundation and gallery mcube, opening november 3 and on view until november 20.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "4858c3705a2f1bfba5889076f5b2b6f9377d252e"
+    },
+    {
       "title": "Solar Cyborg by Amble Skuse, in conversation with Nirvik Maskey",
       "start": "2026-11-04T19:30:00+05:45",
       "source_name": "Taragaon Next",
@@ -42,6 +154,34 @@
       ],
       "image": null,
       "id": "b8ffe1a2a8ee493c3a8ee87815d2e9aec7d4876f"
+    },
+    {
+      "title": "solar cyborg: amble skuse in conversation with nirvik maskey",
+      "start": "2026-11-04T19:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/october-30-november-5#2026-11-04-0",
+      "description": "explore an experimental art project featuring a cyborg with solar-powered wings and a mirrored helmet equipped with cameras and microphones.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "285040114970695d5f77042265dcc83969d3f610"
+    },
+    {
+      "title": "tihar mela",
+      "start": "2026-11-06T11:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-6-november-12#2026-11-06-0",
+      "description": "browse food, crafts, and local products at a two-day festive market celebrating tihar. runs november 6–7.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Market"
+      ],
+      "image": null,
+      "id": "74d06dc28cb5b2b3b2bb99f1f24b20a523da54ed"
     },
     {
       "title": "Deusi Bhailo Fundraiser by Maitrī Music Therapy Nepal",
@@ -58,6 +198,104 @@
       "id": "3bd7530f3c0ac49c4f441f8afcf773cfb7920e40"
     },
     {
+      "title": "पही run",
+      "start": "2026-11-07T06:15:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-6-november-12#2026-11-07-0",
+      "description": "ditch your usual running gear and join a playful 5 km community run where anything goes, except running clothes! show up in something unexpected and enjoy a fun morning on the move.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "9d24154538cb213e8818b83fd21b382d002402a7"
+    },
+    {
+      "title": "lalitpur metropolis-wide running competition",
+      "start": "2026-11-08T06:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-6-november-12#2026-11-08-0",
+      "description": "lace up and join runners from across lalitpur for a city-wide race, with a 10 km men’s run and 5 km women’s run. prizes, medals, and trophies await, with limited spots available.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "86174f7b9be02dbcc10c88e9ff4fa0d52aa57fe0"
+    },
+    {
+      "title": "13th maitidevi street festival",
+      "start": "2026-11-10T15:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-6-november-12#2026-11-10-0",
+      "description": "enjoy an afternoon of live rock music, traditional dance, and cultural performances, with cobweb and shree 3 band taking the stage for a lively neighborhood celebration.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Festival"
+      ],
+      "image": null,
+      "id": "58b3677e0d277c2982b245207b8eec4d14765793"
+    },
+    {
+      "title": "conversation with srijan thapa and prawin adhikari",
+      "start": "2026-11-13T17:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-13-0",
+      "description": "join artist srijan thapa and writer and educator prawin adhikari for a conversation exploring art, ideas, and creative practice.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Talk"
+      ],
+      "image": null,
+      "id": "f3059d0ad49966fbebce69e21338724cd2ff8337"
+    },
+    {
+      "title": "astra temple quest 2083",
+      "start": "2026-11-14T07:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-14-0",
+      "description": "team up with a friend for a 10–15 km adventure through bhaktapur, combining running, hidden temple discoveries, clue-solving, and checkpoint challenges. limited slots available.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "87bc9b04dc86f7e6d64f05811386e2812cc85c87"
+    },
+    {
+      "title": "abhyāsa: tradition in the making",
+      "start": "2026-11-15T10:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-15-0",
+      "description": "explore paubha paintings created by artists from the drawing room’s advanced course and 15-day intensive, showcasing their learning, practice, and the continuation of a living artistic tradition. on view until november 20.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "d73c4527033c720d98bcd26e4fec5337d01ee786"
+    },
+    {
+      "title": "astitwa",
+      "start": "2026-11-18T13:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-18-0",
+      "description": "explore works by 25 artists bringing together diverse creative practices and perspectives on individuality and artistic expression. on view until november 21.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "c16e50b01e40251aaaa122afbd3faceb0ca0fca6"
+    },
+    {
       "title": "Writing Circle – A Space for Writing Enthusiasts to Find a Community",
       "start": "2026-11-19T15:00:00+05:45",
       "source_name": "Taragaon Next",
@@ -72,16 +310,60 @@
       "id": "bd9502238e647ba9b38676e643f7ad0437b0a723"
     },
     {
-      "title": "Banepa Heritage Walk",
-      "start": "2026-11-21T11:00:00+05:45",
-      "source_name": "Kata Jaam",
-      "source_url": "https://katajaam.com/events/w3CDkcHxUuIRJbnLH0vk",
-      "description": null,
+      "title": "writing circle at taragaon next",
+      "start": "2026-11-19T15:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-13-november-19#2026-11-19-0",
+      "description": "bring your ideas and spend an afternoon writing alongside others, sharing thoughts, and connecting with fellow writing enthusiasts in a relaxed community setting.",
       "end": null,
-      "location": "Banepa",
-      "categories": [],
+      "location": null,
+      "categories": [
+        "Literature"
+      ],
       "image": null,
-      "id": "5e0fad1faab3d8b2f16cb5af1c01d64153b4555c"
+      "id": "ff8e783b0cd78014052db228b220d98993d2d035"
+    },
+    {
+      "title": "the confluence",
+      "start": "2026-11-20T11:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-20-0",
+      "description": "explore fine, folk, and traditional art through works by six artists, bringing together diverse creative expressions and perspectives on nepal’s cultural heritage.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "10093adc6be1dad54a50a2bc4294d6a747604bc5"
+    },
+    {
+      "title": "baddies run 2026",
+      "start": "2026-11-21T06:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-21-0",
+      "description": "kick off your morning with a 5 km women’s run celebrating fitness, confidence, and community. connect with fellow runners, enjoy the morning outdoors, and earn a finisher medal.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "fa65fdf025c786b77fe8435577216cd14b64153b"
+    },
+    {
+      "title": "pacelab volume 01.12",
+      "start": "2026-11-22T05:30:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-22-0",
+      "description": "kickstart your sunday with a free 5 km community run, meet fellow runners, and enjoy a morning of movement and connection. open to everyone, with no participant limit.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "7d140e253f625601f3e0af2a39ecf1489f45cda8"
     },
     {
       "title": "फेरिँदो नेपाली भात-भान्सा",
@@ -123,6 +405,20 @@
       "id": "eb5d5fd3f5b59152cd339bedcaa09d9d3218c3c5"
     },
     {
+      "title": "kangchenjunga through the lens",
+      "start": "2026-11-24T11:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-24-0",
+      "description": "explore over a century of photographs capturing the landscapes, biodiversity, cultures, and communities of the kangchenjunga region, from historic images to works by contemporary nepali photographers. on view until november 30.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "bf2a16706a35eaae7b5c421ad189a61850da8e28"
+    },
+    {
       "title": "No Discussion due to the Chautari Annual Conference - 2026",
       "start": "2026-11-24T15:00:00+05:45",
       "source_name": "Martin Chautari",
@@ -151,6 +447,20 @@
       ],
       "image": null,
       "id": "6d457de5bfb41e11acb5830e27d3633c8e7b9834"
+    },
+    {
+      "title": "tintin in nepal",
+      "start": "2026-11-25T14:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-20-november-26#2026-11-25-0",
+      "description": "explore paintings, sculptures, and installations by bhutanese artist pema “tintin” tshering, reflecting on existence, spirituality, and the connections between himalayan philosophy and contemporary life. meet the artist at 5pm.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Exhibition"
+      ],
+      "image": null,
+      "id": "6b5bb79a9aecd18fde7f7a3cc4820367f6e5fd31"
     },
     {
       "title": "निलो सिन्दुर",
