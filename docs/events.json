@@ -1,34 +1,6 @@
 {
-  "generated_at": "2026-11-26T11:41:33.121803+00:00",
+  "generated_at": "2026-11-27T11:35:24.159652+00:00",
   "events": [
-    {
-      "title": "Bhag Bheda Bhag",
-      "start": "2026-10-28T00:00:00+05:45",
-      "source_name": "Mandala Theatre",
-      "source_url": "https://www.mandalatheatre.com/events/bhag-bheda-bhag/",
-      "description": null,
-      "end": "2026-11-07T00:00:00+05:45",
-      "location": null,
-      "categories": [
-        "Theatre"
-      ],
-      "image": null,
-      "id": "412a10f1450623065ebe074ac4e0b72c0ee2b450"
-    },
-    {
-      "title": "nepa-quest 10k run 2026",
-      "start": "2026-10-28T07:00:00+05:45",
-      "source_name": "Spotted by Sattya",
-      "source_url": "https://spottedbysattya.substack.com/p/october-23-october-29#2026-10-28-0",
-      "description": "join runners of different ages and experience levels, with separate categories for elite, youth, and masters. registration includes an event t-shirt and finisher medal, with prizes for winners.",
-      "end": null,
-      "location": null,
-      "categories": [
-        "Sport"
-      ],
-      "image": null,
-      "id": "b01ea4dede102b248a93e852be271509e9ef6ce7"
-    },
     {
       "title": "hike for a change",
       "start": "2026-10-29T08:00:00+05:45",
@@ -379,20 +351,6 @@
       "id": "6b5bb79a9aecd18fde7f7a3cc4820367f6e5fd31"
     },
     {
-      "title": "निलो सिन्दुर",
-      "start": "2026-11-27T00:00:00+05:45",
-      "source_name": "Mandala Theatre",
-      "source_url": "https://www.mandalatheatre.com/events/%e0%a4%a8%e0%a4%bf%e0%a4%b2%e0%a5%8b-%e0%a4%b8%e0%a4%bf%e0%a4%a8%e0%a5%8d%e0%a4%a6%e0%a5%81%e0%a4%b0/",
-      "description": null,
-      "end": "2026-12-13T00:00:00+05:45",
-      "location": null,
-      "categories": [
-        "Theatre"
-      ],
-      "image": null,
-      "id": "837176c6d170c1e913ea05e4c99d163f1c09d2c2"
-    },
-    {
       "title": "What Has Become Available Recently (Past 15-25 Years) in Various Old and New Archives That Will Enable Us to Write New Histories of Modern South Asia?",
       "start": "2026-11-27T15:00:00+05:45",
       "source_name": "Martin Chautari",
@@ -420,6 +378,20 @@
       ],
       "image": null,
       "id": "b07b975351cda9637e94fdd535a95db18b802058"
+    },
+    {
+      "title": "book swap",
+      "start": "2026-11-28T08:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-27-december-3#2026-11-28-0",
+      "description": "bring up to five pre-loved books and exchange them for new reads, from fiction and children’s stories to spirituality and nonfiction. part of the boudha farmers market, with book donations also welcome.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Literature"
+      ],
+      "image": null,
+      "id": "932cee60cdb7a51447f1a6e669deafb95455a339"
     },
     {
       "title": "Doodling at Taragaon",
@@ -451,6 +423,34 @@
       "id": "3a1115e4fbde1b6fa1998cc4192f0c322c68e6fa"
     },
     {
+      "title": "galli run 2026",
+      "start": "2026-11-29T15:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-27-december-3#2026-11-29-0",
+      "description": "run approximately 8.5 km through patan’s historic streets and alleys, then enjoy newari food, art, live music, and community activities. registration includes a finisher medal, t-shirt, and refreshments, with food and music packages also available.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Sport"
+      ],
+      "image": null,
+      "id": "2d5326c52567523e7d7c8a9166ddef90432fbf38"
+    },
+    {
+      "title": "black & white 1.0",
+      "start": "2026-12-01T10:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-27-december-3#2026-12-01-0",
+      "description": "explore the creative possibilities of working in black and white with guidance from a professional artist. learn new techniques, make your own artwork, and add your finished piece to a shared gallery. all materials provided.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Workshop"
+      ],
+      "image": null,
+      "id": "e2fad9549fdcf5147945cfafc9b66352c3de75a0"
+    },
+    {
       "title": "Teaching the Younger Generation: Experiences and Reflections",
       "start": "2026-12-01T15:00:00+05:45",
       "source_name": "Martin Chautari",
@@ -464,6 +464,34 @@
       ],
       "image": null,
       "id": "e93fda8b62e734bade2bb101c8f3c25a425de822"
+    },
+    {
+      "title": "dhoka kholnus",
+      "start": "2026-12-02T13:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-27-december-3#2026-12-02-0",
+      "description": "explore music, writing, movement, and self-expression through hip hop in a beginner-friendly workshop on music appreciation and lyric writing. no prior experience needed. sessions take place on december 2, 3, 4, and 6.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Workshop"
+      ],
+      "image": null,
+      "id": "c8a5edc106ced7dcfe5dd5ef9f84dcfc918f42fe"
+    },
+    {
+      "title": "dhoka kholnus",
+      "start": "2026-12-03T13:00:00+05:45",
+      "source_name": "Spotted by Sattya",
+      "source_url": "https://spottedbysattya.substack.com/p/november-27-december-3#2026-12-03-0",
+      "description": "explore music, writing, movement, and self-expression through hip hop in a beginner-friendly workshop on music appreciation and lyric writing. no prior experience needed.",
+      "end": null,
+      "location": null,
+      "categories": [
+        "Workshop"
+      ],
+      "image": null,
+      "id": "2b91764f96256a5397f1c2042719fbcbce4b2d8e"
     },
     {
       "title": "Kirtipur Street Fest 2083 at Nagaun Dobato",
@@ -491,20 +519,6 @@
       ],
       "image": null,
       "id": "97245b8b9326d409a591dc724e30195af71742dc"
-    },
-    {
-      "title": "Naurangi Danphe)",
-      "start": "2026-12-11T00:00:00+05:45",
-      "source_name": "Mandala Theatre",
-      "source_url": "https://www.mandalatheatre.com/events/naurangi-danphe/",
-      "description": null,
-      "end": "2026-12-13T00:00:00+05:45",
-      "location": null,
-      "categories": [
-        "Theatre"
-      ],
-      "image": null,
-      "id": "d6ad1e297918d6663aa8cf01b873824e38774d31"
     },
     {
       "title": "HunterHood",
